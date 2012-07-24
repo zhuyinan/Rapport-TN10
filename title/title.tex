@@ -1,0 +1,61 @@
+\makeatletter
+\newcommand{\HRule}{\rule{\linewidth}{2.5mm}}
+\renewcommand\maketitle{
+  \begin{titlepage}
+    \begin{center}
+      \includegraphics[width=7.2cm]{title/images/logo_utc.png}
+      \hspace{\stretch{1}}
+      %\includegraphics[width=5.2cm]{title/images/data-gest.jpg}
+
+      \vspace{\stretch{0.5}}
+
+      \begin{tabular*}{1.0\textwidth}{l @{\extracolsep{\fill}} r}
+        Université de téchnologie de Compiègne \\ 			%	& \NomEntreprise 				\\
+        UTC \@date 							%& La Plaine de Saint Dennis 		\\
+      \end{tabular*}
+
+      \vspace{\stretch{1.5}}
+      % Title
+      \begin{flushright}
+        {\huge \bfseries \@title\\}
+        \HRule \\[0.5cm]
+        {\Large \it Rapport Final de Stage de Fin d'études \\[3.5cm]}
+      \end{flushright}
+      %{\large \it \@author\\}
+      \begin{minipage}{1\textwidth}
+        \begin{flushright} \large
+
+          \@author \\
+          Système Réseaux Informatique  \\[7.5cm]
+        \end{flushright}
+        \begin{flushleft}
+          \emph{Tutrise:} Mme.~Angélique \textsc{Ruton} \\
+          \emph{Suiveur UTC:} M.~Boris \textsc{Vidolov} \\
+          \emph{Entreprise:} DATA-GEST  \\
+
+        \end{flushleft}
+      \end{minipage}
+      \vspace{\stretch{2}}
+      %\includegraphics[width=1.0\textwidth]{title/images/logo_illustration.png}
+      \vspace{\stretch{2}}
+
+
+    \end{center}\par
+
+  \end{titlepage}
+  \setcounter{footnote}{0}
+
+%  \global\let\thanks\relax
+%  \global\let\maketitle\relax
+%  \global\let\@thanks\@empty
+%  \global\let\@author\@empty
+%  \global\let\@date\@empty
+%  \global\let\@title\@empty
+%  \global\let\title\relax
+%  \global\let\author\relax
+%  \global\let\date\relax
+%  \global\let\and\relax
+}
+
+
+\makeatother

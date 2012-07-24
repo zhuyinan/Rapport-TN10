@@ -1,0 +1,27 @@
+%définition des marges
+\geometry{hmargin=2.5cm, vmargin=2.5cm } 
+
+%utilisation des puces anglaises.
+%attention, il faut avoir une version récente de frenchb.ldf. 
+\frenchbsetup{StandardItemLabels}
+
+%Définition des en-têtes et pieds de page
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+%\fancyhead[C]{ \textcolor{Gray}{\small\TitreRapport}}
+\fancyfoot[LE, RO]{ \textcolor{Gray}{ \small\AuteurRapport ~~ \vline ~~ UTC ~~ \vline ~~ \DateRapport }}
+
+\fancyfoot[C]{\thepage}
+\fancyfoot[RE, LO]{\includegraphics[width=1.8cm]{style/images/logo_utc.png}}
+%\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\rightmark}
+\fancyhead[RE]{\leftmark}
+
+
+%\fancyhead[L,R]{}
+
+
+% définition du tire, de la date et de l'auteur du document
+\title{\TitreRapport}
+\date{\DateRapport}
+\author{\AuteurRapport}

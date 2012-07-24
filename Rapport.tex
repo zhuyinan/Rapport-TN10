@@ -1,0 +1,41 @@
+% Modle pour rapport de Stage de Fin d'Etudes de UTC
+% version 0.1
+% 2012-07-12
+% par ZHU Yinan (zhuyinan1988@gmail.com)
+
+\documentclass[12pt,oneside,a4paper]{book}
+\input{style/packages.tex}
+
+% Comment utiliser : 
+% - la page de titre est à personnaliser (title/title.tex)
+% - le contenu est à rédiger dans le répertoire pages/, s'inspirer des exemples présents dans ce modèle.
+% - les annexes sont à rédiger dans le répertoire appendix/
+% - la bibliographie utilise BibTex (fichier biblio.bib)
+% - les variables suivantes sont à remplir :
+\newcommand{\TitreRapport}{Rapport de stage TN10}
+\newcommand{\DateRapport}{2012}
+\newcommand{\AuteurRapport}{Yinan ZHU}
+\newcommand{\NomEntreprise}{Data Gest}
+
+\input{style/style.tex}
+\input{title/title.tex}
+
+\begin{document}
+\pagestyle{fancy}
+\maketitle
+\frontmatter
+\input{body/pages/chapitre-prefix/remerciements.tex}
+\input{body/pages/chapitre-prefix/abstract-fr.tex}
+\tableofcontents
+\listoffigures
+\listoftables
+\mainmatter
+\input{body/pages/chapitre-intro/chapitre.tex}
+\backmatter
+\input{body/pages/conclusion.tex}
+\bibliographystyle{plain}
+\bibliography{biblio}\addcontentsline{toc}{chapter}{Bibliographie} 
+\appendix
+\input{appendix/titreA.tex}
+
+\end{document}
