@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.11)  24 JUL 2012 10:16
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.11)  24 JUL 2012 12:46
 entering extended mode
  %&-line parsing enabled.
 **Rapport.tex
@@ -714,7 +714,7 @@ LaTeX Info: Redefining \pageref on input line 23.
 
 \AtBeginShipoutBox=\box37
 LaTeX Info: Redefining \selectfont on input line 23.
- <title/images/logo_utc.png, id=55, 85.15816pt x 30.1125pt>
+ <title/images/logo_utc.png, id=63, 85.15816pt x 30.1125pt>
 File: title/images/logo_utc.png Graphic file (type png)
 
 <use title/images/logo_utc.png>
@@ -785,7 +785,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-<style/images/logo_utc.png, id=104, 85.15816pt x 30.1125pt>
+<style/images/logo_utc.png, id=114, 85.15816pt x 30.1125pt>
 File: style/images/logo_utc.png Graphic file (type png)
 
 <use style/images/logo_utc.png>pdfTeX warning (ext4): destination with the same
@@ -805,7 +805,7 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 
-<body/images/figure_example.png, id=112, 230.8625pt x 108.405pt>
+<body/images/figure_example.png, id=122, 230.8625pt x 108.405pt>
 File: body/images/figure_example.png Graphic file (type png)
 
 <use body/images/figure_example.png>
@@ -822,25 +822,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--58
 File: style/images/logo_utc.png Graphic file (type png)
 <use style/images/logo_utc.png> [2 <./body/images/figure_example.png>]))
 (./body/pages/chapitre-intro/intro-sujet/intro.tex))
+(./body/pages/chapitre-pretude/chapitre.tex
 File: style/images/logo_utc.png Graphic file (type png)
+ <use style/images/logo_utc.png>
+[3]
+Chapitre 2.
+(./body/pages/chapitre-pretude/serveur/intro.tex
+(./body/pages/chapitre-pretude/serveur/serveur-local/serveur-local.tex)
+(./body/pages/chapitre-pretude/serveur/serveur-distant/serveur-distant.tex)))
 
-<use style/images/logo_utc.png> [3] (./body/pages/conclusion.tex)
-(./Rapport.bbl [4
+Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
+ Make it at least 15.71667pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: style/images/logo_utc.png Graphic file (type png)
+<use style/images/logo_utc.png> [4
+
+] (./body/pages/conclusion.tex)
+(./Rapport.bbl [5
 
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
-) (./appendix/titreA.tex [5
+) (./appendix/titreA.tex [6
 
-]) [6
+]) [7
 
 ] (./Rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 8425 strings out of 495028
- 117779 string characters out of 1181229
+ 8446 strings out of 495028
+ 118496 string characters out of 1181229
  205034 words of memory out of 3000000
- 11368 multiletter control sequences out of 15000+50000
+ 11371 multiletter control sequences out of 15000+50000
  12056 words of font info for 44 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  40i,14n,43p,604b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -852,9 +867,9 @@ fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/p
 ublic/amsfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy
 6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Rapport.pdf (12 pages, 241398 bytes).
+Output written on Rapport.pdf (13 pages, 244762 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 120 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 204 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
