@@ -3,18 +3,13 @@
 
 \subsubsection{Infrastructure}
 Il y a trois serveurs locals chez Data-Gest. 
-\begin{description}
-\item[•]DATAGESTSRV01
-\item[•]DATAGESTSRV02
-\item[•]SRV-NAVISION
-\end{description}
+\begin{itemize}
+  \item[•]DATAGESTSRV01 : Les objets principales de ce serveur sont le stockage et le partage. Il sert à le stocker tous les informations de l'entreprise. Par exemple, les sessions du chaque utilisateur de l'entreprise, aussi inclure leur datas personnels.Entre différent pôle, afin de partager les dossiers et les documents, on utilise aussi ce serveur.
+  \item[•]DATAGESTSRV02 : C'est un serveur local avec système exploitation de windows qui sert comme le serveur mail (Exchange). Tous les histoire de mails de chaque session sont stockés sur ce serveur.
+  \item[•]SRV-NAVISION : Un logiciel de ERP est installé sur ce serveur. Il contrôle des flux de liste de cadeaux et la liste de commande de client chaque jour.  
+\end{itemize}
 
 
-\subparagraph{}
-L'infrastructure est déjà configurée en mode failover. C'est à dire que l'ip sur lequel le service est hébergé est routé sur le
-serveur princial (ns26393.ovh.net). En cas de panne du serveur principale l'adresse ip est routée vers le serveur
-secondaire. Par conséquent il faudra configurer les domaines de production pour qu'ils dirigent vers l'adresse IP
-178.33.251.180.
 
 
 
