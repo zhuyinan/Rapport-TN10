@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.11)  21 AUG 2012 00:52
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.11)  21 AUG 2012 23:39
 entering extended mode
  %&-line parsing enabled.
 **Rapport.tex
@@ -753,7 +753,7 @@ LaTeX Info: Redefining \pageref on input line 23.
 
 \AtBeginShipoutBox=\box37
 LaTeX Info: Redefining \selectfont on input line 23.
- <title/images/logo_utc.png, id=71, 85.15816pt x 30.1125pt>
+ <title/images/logo_utc.png, id=79, 85.15816pt x 30.1125pt>
 File: title/images/logo_utc.png Graphic file (type png)
 
 <use title/images/logo_utc.png>
@@ -771,13 +771,8 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./title/images/logo_utc.pn
 g (PNG copy)>]
-(./body/pages/chapitre-prefix/remerciements.tex
-Overfull \hbox (4.03438pt too wide) in paragraph at lines 11--12
-[]\OT1/cmr/m/n/12 Mes re-mer-cie-ments s'adressent en pre-mier lieu ^^Ra ma tu-
-trice de stage, Ma-dame Ang^^Selique
- []
-
-) (./body/pages/chapitre-prefix/abstract-fr.tex [1
+(./body/pages/chapitre-prefix/remerciements.tex)
+(./body/pages/chapitre-prefix/abstract-fr.tex [1
 
 
 ]) [2
@@ -786,10 +781,10 @@ trice de stage, Ma-dame Ang^^Selique
 \tf@toc=\write4
 \openout4 = `Rapport.toc'.
 
+ [3
 
-[3
-
-] (./Rapport.lof)
+]
+(./Rapport.lof)
 \tf@lof=\write5
 \openout5 = `Rapport.lof'.
 
@@ -824,7 +819,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-<style/images/logo_utc.png, id=126, 85.15816pt x 30.1125pt>
+<style/images/logo_utc.png, id=140, 85.15816pt x 30.1125pt>
 File: style/images/logo_utc.png Graphic file (type png)
 
 <use style/images/logo_utc.png>pdfTeX warning (ext4): destination with the same
@@ -844,7 +839,7 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 
-<body/images/figure_example.png, id=134, 230.8625pt x 108.405pt>
+<body/images/figure_example.png, id=148, 230.8625pt x 108.405pt>
 File: body/images/figure_example.png Graphic file (type png)
 
 <use body/images/figure_example.png>
@@ -867,8 +862,8 @@ File: style/images/logo_utc.png Graphic file (type png)
 [3]
 Chapitre 2.
 (./body/pages/chapitre-pretude/serveur/intro.tex
-(./body/pages/chapitre-pretude/serveur/serveur-local/serveur-local.tex)
-(./body/pages/chapitre-pretude/serveur/serveur-distant/serveur-distant.tex
+(./body/pages/chapitre-pretude/serveur/serveur-local.tex)
+(./body/pages/chapitre-pretude/serveur/serveur-distant.tex
 
 Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
  Make it at least 15.71667pt.
@@ -878,40 +873,57 @@ Package Fancyhdr Warning: \headheight is too small (14.49998pt):
 File: style/images/logo_utc.png Graphic file (type png)
 <use style/images/logo_utc.png> [4
 
-])))
+])
+(./body/pages/chapitre-pretude/serveur/problem.tex))
+(./body/pages/chapitre-pretude/moduleDG/intro.tex
 File: style/images/logo_utc.png Graphic file (type png)
- <use style/images/logo_utc.png> [5]
-(./body/pages/conclusion.tex) (./Rapport.bbl [6
+
+<use style/images/logo_utc.png> [5]))
+File: style/images/logo_utc.png Graphic file (type png)
+ <use style/images/logo_utc.png> [6]
+(./body/pages/conclusion.tex) (./Rapport.bbl [7
 
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
 ) (./appendix/titreA.tex
-[7
+[8
 
-]) [8
+]) [9
 
 ] (./Rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 8596 strings out of 495028
- 120360 string characters out of 1181229
- 205034 words of memory out of 3000000
- 11504 multiletter control sequences out of 15000+50000
+ 8618 strings out of 495028
+ 120632 string characters out of 1181229
+ 207034 words of memory out of 3000000
+ 11507 multiletter control sequences out of 15000+50000
  12056 words of font info for 44 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 40i,14n,43p,604b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/p
-ublic/amsfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy
-6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Rapport.pdf (14 pages, 250537 bytes).
+ 40i,15n,43p,732b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{appendix*.24} has been reference
+d but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.23} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.22} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.2} has been referenced but does not exist,
+ replaced by a fixed one
+
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+msl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Rapport.pdf (15 pages, 261816 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 255 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 

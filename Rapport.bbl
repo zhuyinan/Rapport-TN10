@@ -1,5 +1,9 @@
 \begin{thebibliography}{1}
 
+\bibitem{WIKI}
+\newblock {RedMine}
+\newblock {http://fr.wikipedia.org/wiki/Redmine}
+
 \bibitem{sheffer2006mpm}
 A.~Sheffer, E.~Praun, and K.~Rose.
 \newblock {Mesh parameterization methods and their applications}.
