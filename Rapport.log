@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.11)  21 AUG 2012 23:39
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.11)  25 AUG 2012 18:08
 entering extended mode
  %&-line parsing enabled.
 **Rapport.tex
@@ -753,7 +753,7 @@ LaTeX Info: Redefining \pageref on input line 23.
 
 \AtBeginShipoutBox=\box37
 LaTeX Info: Redefining \selectfont on input line 23.
- <title/images/logo_utc.png, id=79, 85.15816pt x 30.1125pt>
+ <title/images/logo_utc.png, id=103, 85.15816pt x 30.1125pt>
 File: title/images/logo_utc.png Graphic file (type png)
 
 <use title/images/logo_utc.png>
@@ -777,24 +777,34 @@ g (PNG copy)>]
 
 ]) [2
 
-] (./Rapport.toc)
+] (./Rapport.toc [3
+
+])
 \tf@toc=\write4
 \openout4 = `Rapport.toc'.
 
- [3
 
-]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 15.71667pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+<style/images/logo_utc.png, id=155, 85.15816pt x 30.1125pt>
+File: style/images/logo_utc.png Graphic file (type png)
+
+<use style/images/logo_utc.png> [4 <./style/images/logo_utc.png (PNG copy)>]
 (./Rapport.lof)
 \tf@lof=\write5
 \openout5 = `Rapport.lof'.
 
- [4
+ [5
 
 ] (./Rapport.lot)
 \tf@lot=\write6
 \openout6 = `Rapport.lot'.
 
- [5
+ [6
 
 ]
 (./body/pages/chapitre-intro/chapitre.tex
@@ -813,33 +823,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
 (./body/pages/chapitre-intro/intro-entreprise/mission-principale/mission-princi
 pale.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-<style/images/logo_utc.png, id=140, 85.15816pt x 30.1125pt>
 File: style/images/logo_utc.png Graphic file (type png)
-
-<use style/images/logo_utc.png>pdfTeX warning (ext4): destination with the same
- identifier (name{page.1}) has been already used, duplicate ignored
+ <use style/images/logo_utc.png>pdfTeX warning (ext4): destination with the sam
+e identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.22 
       [1
 
 
- <./style/images/logo_utc.png (PNG copy)>]
+]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
-
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 
-<body/images/figure_example.png, id=148, 230.8625pt x 108.405pt>
+<body/images/figure_example.png, id=185, 230.8625pt x 108.405pt>
 File: body/images/figure_example.png Graphic file (type png)
 
 <use body/images/figure_example.png>
@@ -864,13 +865,8 @@ Chapitre 2.
 (./body/pages/chapitre-pretude/serveur/intro.tex
 (./body/pages/chapitre-pretude/serveur/serveur-local.tex)
 (./body/pages/chapitre-pretude/serveur/serveur-distant.tex
-
-Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
- Make it at least 15.71667pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 File: style/images/logo_utc.png Graphic file (type png)
+
 <use style/images/logo_utc.png> [4
 
 ])
@@ -878,40 +874,57 @@ File: style/images/logo_utc.png Graphic file (type png)
 (./body/pages/chapitre-pretude/moduleDG/intro.tex
 File: style/images/logo_utc.png Graphic file (type png)
 
-<use style/images/logo_utc.png> [5]))
+<use style/images/logo_utc.png> [5]
+<body/images/ModuleDG.png, id=224, 433.62pt x 216.81pt>
+File: body/images/ModuleDG.png Graphic file (type png)
+
+<use body/images/ModuleDG.png>
+Overfull \hbox (15.57603pt too wide) in paragraph at lines 28--29
+\OT1/cmr/m/n/12 client de chaque site va-lide une com-mande, il sera pass^^Se ^
+^Ra mo-du-leDG afin de contr^oler.(Valider
+ []
+
+) (./body/pages/chapitre-pretude/kdomotiv/intro.tex
+<body/images/Procedure-kdomotiv.png, id=225, 469.755pt x 325.215pt>
+File: body/images/Procedure-kdomotiv.png Graphic file (type png)
+
+<use body/images/Procedure-kdomotiv.png>
 File: style/images/logo_utc.png Graphic file (type png)
- <use style/images/logo_utc.png> [6]
-(./body/pages/conclusion.tex) (./Rapport.bbl [7
+ <use style/images/logo_utc.png>
+[6 <./body/images/ModuleDG.png>]
+Overfull \hbox (2.85648pt too wide) in paragraph at lines 24--26
+[]\OT1/cmr/m/n/12 : Cette so-lu-tion est gra-cieu-se-ment mise ^^Ra votre dis-p
+o-si-tion. De plus elle pr^^Sesente
+ []
+
+))
+File: style/images/logo_utc.png Graphic file (type png)
+ <use style/images/logo_utc.png> [7 <./body/images/Procedure-kdomotiv.png>]
+(./body/pages/conclusion.tex) (./Rapport.bbl [8
 
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
 ) (./appendix/titreA.tex
-[8
+[9
 
-]) [9
+]) [10
 
 ] (./Rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 8618 strings out of 495028
- 120632 string characters out of 1181229
- 207034 words of memory out of 3000000
- 11507 multiletter control sequences out of 15000+50000
+ 8651 strings out of 495028
+ 121338 string characters out of 1181229
+ 208034 words of memory out of 3000000
+ 11523 multiletter control sequences out of 15000+50000
  12056 words of font info for 44 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 40i,15n,43p,732b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{appendix*.24} has been reference
+ 40i,14n,43p,732b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{appendix*.29} has been reference
 d but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter*.23} has been referenced but does not exist
+pdfTeX warning (dest): name{chapter*.27} has been referenced but does not exist
 , replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.22} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.2} has been referenced but does not exist,
- replaced by a fixed one
 
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share
 /texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-tex
@@ -921,9 +934,9 @@ amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
 msl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/t
 exmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Rapport.pdf (15 pages, 261816 bytes).
+Output written on Rapport.pdf (17 pages, 309776 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
