@@ -62,6 +62,46 @@ Comme le problème lequel j'ai déjà expliqué dans le chapitre avant, ce n'est
 Par conséquent, j'ai trouver deux applications web candidats qui sert à la gestion de projet. Une est RedMine qui est programmé par Ruby, l'autre est Trac qui est programmé par python. Finalement, j'ai fixé d'utiliser RedMine dû à son plus agréable interface.  
 
 Vu que RedMine est une web application sous framework Ruby on Rails. Il faut configurer la framework de ROR sur serveur local. 
+
+Après l'installation et la configuration du ROR, la mise en place de Redmine est simple. Suivi les instructions depuis le site officiel de Redmine, c'est simple de mettre en œuvre. 
+
+Ensuite, j'ai déposé tous les projets actuels de Data-Gest afin de gérer et tracer sur RedMine. On peut aussi apercevoir les anomalies, les évolution, les assistances de chaque projet.
+\begin{figure}[hbtp]
+\center
+\includegraphics[width=10cm]{body/images/redmine-accueil.PNG}
+\caption{Acceuil de Redmine}
+\end{figure}
+
+
+
+Cependant, quand j'ai essayé d'ajouter un ticket sur redmine à la fin du test, je n'ai reçu aucune  mail de notification lorsque le changement de ticket.
+
+\subsubsection{Installation du serveur mail(Postfix) local}
+Afin de fixer le problème que j'avais avant concernent le mails. J'ai installé le Postfix comme le serveur de messagerie électronique au remplacement du serveur \textbf{Sendmail}, vu qu'il est plus léger et plus stable. La configuration de Postfix en détail est dans annexe.
+
+\subsubsection{Résume}
+Étant donné que le serveur local peut juste être visité pas adresse IP, mais il y a plusieurs services sur ce serveur. Par conséquence, j'ai configuré les différent portes de Apache ou on peut y accéder pour utiliser le différent service. Par exemple, si on va accéder à PhpMyAdmin\footnote{Interface graphique pour gérer MySQL}, on peut juste ajout la porte correspondant après l'adresse IP.
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{ll}
+  \toprule
+  Porte & Service\\
+  \midrule
+	80(Par défaut) & l'application RedMine \\ 
+	 
+	8080 & CMS Drupal, développement de site par Drupal \\ 
+	 
+	8888 & PhpMyAdmin, interface graphique pour la gestion Base de donnée \\ 
+	 
+  \bottomrule
+\end{tabular}
+ \caption{\label{tab:Service de différents portes}Service de différents portes}
+\end{table}
+
+
+
+
 \subsection{Configuration un serveur SVN sur seveur distant}
 
 \subsection{Création de la documentation du Data-Gest}
