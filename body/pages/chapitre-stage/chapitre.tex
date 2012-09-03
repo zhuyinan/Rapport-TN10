@@ -3,7 +3,7 @@
 \paragraph{}
 Cette chapitre explique les travaux principale pendant mon stage. Il se compose de trois sections. Tous d'abord, j'ai installé et configuré un environnement de développement afin de améliorer l'efficacité. Ensuit, le travaille principale est l'amélioration du framework KdoMotiv Médium. Dernièrement, c'est quelque projets lesquels j'ai réalisé par KdoMotiv.
 
-\section{Configuration de l'environnement}
+\section[Configuration]{Configuration de l'environnement}
 
 \subsection{Installer un serveur linux local}
 \paragraph{}
@@ -88,26 +88,80 @@ Afin de fixer le problème que j'avais avant concernent le mails. J'ai installé
   \toprule
   Porte & Service\\
   \midrule
-	80(Par défaut) & l'application RedMine \\ 
-	 
-	8080 & CMS Drupal, développement de site par Drupal \\ 
-	 
-	8888 & PhpMyAdmin, interface graphique pour la gestion Base de donnée \\ 
-	 
+	80(Par défaut) & l'application RedMine \\ 	 
+	8080 & CMS Drupal, développement de site par Drupal \\ 	 
+	8888 & PhpMyAdmin, interface graphique pour la gestion Base de donnée \\ 	 
   \bottomrule
 \end{tabular}
  \caption{\label{tab:Service de différents portes}Service de différents portes}
 \end{table}
 
-
-
-
 \subsection{Configuration un serveur SVN sur seveur distant}
+\paragraph{}
+Quand le serveur distant OHV est mise en œuvre, le SVN est déjà pré-installé sur le serveur dev, c'est-à-dire on peut contrôler lès version de projets que on a déjà développé. Mais on a pas bien communiqué avec l'administrateur réseaux d'OVH, et on n'a utilisé jamais depuis un an. Après le nouveaux chef de gestion de projet est arrivé, on l'a décidé de reprendre. 
+
+Mais il semble que le SVN sur serveur dev distant est mal configuré, il y a juste un dépôt de subvention par défaut sur le serveur. En plus, on a pas de droit de le configuré soi-même. Par conséquence, on a demandé  à l'administrateur réseaux d'ovh de nous donner tous les droits d'en contrôler. 
+
+\subsubsection{Fichier de conf}
+Après on a gagné les droit de configuration dans le répertoire de SVN, on a créé un dépôt qui sert à notre premier projet lequel on voudrait contrôler la version en ligne de commande. Dans le répertoire "\textbf{conf}" de ce dépôt subvention, on peut ajouter les utilisateurs qui peuvent faire les action "commit" à ce dépôt  ou "check out" depuis ce dépôt. 
+\begin{figure}[hbtp]
+\center
+\includegraphics[width=10cm]{body/images/conf-svn.png}
+\caption{fichier conf SVN}
+\end{figure}
+
+
+\subsubsection{Problème de permission de répertoire }
+On a installé TortoiseSVN comme le logiciel de côté client.  Mais on a eu le problème de la permission de commit pendant le commit. En fait, le dépôt on a créé est dans le groupe de "user". Mais quand on fait un commit depuis côté client, c'est le utilisateur svn dans groupe svn qui le fait par défaut, il n'a pas de droit d'écrire et lire dans répertoire de dépôt.
+
+On doit lancé a commande dans linux afin de changer l'utilisateur et le groupe d'une répertoire dans le dépôt. 
+
+\begin{figure}[hbtp]
+\center
+\includegraphics[width=10cm]{body/images/svn-problem-permission.png}
+\caption{Changer groupe de répertoire}
+\end{figure}
+
+\subsubsection{WEBSVN}
+WEBSVN est un interface graphique permettant de visualiser les versions des projets. Il est pointé vers le répertoire de dépôt de SVN.
+\begin{figure}[hbtp]
+\center
+\includegraphics[width=15cm]{body/images/websvn.png}
+\caption{Interface WEBSVN}
+\end{figure}
+
+
+\subsubsection{HOOK}
+Un hook (littéralement crochet) permet de lancer un programme personnalisé au moment précis où le programme principal à la tâche de l’exécuter. Dans le cas de svn les hooks sont applicables sur les évènements de contrôle de version( commit , changement de révision, lock). On peut le comparer à la notion de trigger en sql.
+On utilise "hook" chaque fois que on fait un commit de local à serveur distant afin de aussi mettre à jour de modification dans le répertoire où le site est situé. C'est très pratique pour le debug.
+
+Ce que on a utilisé dans hook est l'événement \textbf{post-commit} , une notification du succés de la transaction de commit. Généralement utilisé pour envoyer un mail à un administrateur ou synchroniser le site 
+
 
 \subsection{Création de la documentation du Data-Gest}
+\paragraph{}
+Avant je suis arrivé, il n'y a rien de documentation de pôle web chez Data-Gest, c'est la raison que je voudrais créer la documentation de noter ce que j'ai fait. Dans variés types des applications de wiki, j'ai choisi dokuwiki comme le wiki de Data-Gest basé sur les raison suivant.
+\begin{itemize}
+\item [-] C'est un moteur de wiki libre sous licence GUN GPL
+\item [-] Simple à utiliser et déployer comme il est développé en PHP.
+\item [-] Le plus important avantages est que toutes les données sont stockées dans des fichiers texte, et donc aucune base de données n’est nécessaire. C'est très pratique pour la migration.
+\end{itemize}
+
+\paragraph{}
+Ce que j'ai rédigé principal dans le wiki sont la gestion de SVN sur serveur distant, les informations de serveur local et serveur distant, et aussi certain informations très important que on doit le noter. 
+
+\begin{figure}[hbtp]
+\center
+\includegraphics[scale=1]{body/images/dukowiki.png}
+\caption{Dokuwiki}
+\end{figure}
+
+\newpage
+
+\section[Amélioration KdoMotiv]{Amélioration du framework KdoMotiv}
+La mission principale pendant mon stage est d'améliorer le framework KdoMotiv médium. 
 
 
-\section{Amélioration du framework KdoMotiv}
-
+\newpage
 \section{Projets}
 

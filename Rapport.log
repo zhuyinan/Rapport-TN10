@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.3)  29 AUG 2012 17:30
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.3)  2 SEP 2012 18:26
 entering extended mode
 **Rapport.tex
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\Rapport.tex"
+(C:\USBTeX-1.7\rapport\Rapport-TN10\Rapport.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,13 +13,9 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\base\book.cls"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\base\book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\base\bk12.clo"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\base\bk12.clo
 File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -35,24 +31,20 @@ File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\style/package
-s.tex"
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\base\inputenc.sty"
+(C:\USBTeX-1.7\rapport\Rapport-TN10\style/packages.tex
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\base\inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\base\utf8.def"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\base\utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\base\t1enc.dfu"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\base\t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -202,8 +194,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\base\ot1enc.dfu"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\base\ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -234,8 +225,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\base\omsenc.dfu"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\base\omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -259,24 +249,19 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\generic\babel\babel.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\generic\babel\babel.sty
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\00miktex\bblopts.cfg"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\00miktex\bblopts.cfg
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\generic\babel\frenchb.ldf"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\generic\babel\frenchb.ldf
 Language: frenchb 2009/03/16 v2.3d French support from the babel system
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\generic\babel\babel.def"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\generic\babel\babel.def
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
@@ -293,40 +278,30 @@ Package babel Info: Making ? an active character on input line 123.
 *************************************
 * Local config file frenchb.cfg used
 *
-
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\generic\babel\frenchb.cfg")))
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\carlisle\scalefnt.sty")
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\graphics\keyval.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\generic\babel\frenchb.cfg)))
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\carlisle\scalefnt.sty)
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\graphics\keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\ams\math\amsmath.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\ams\math\amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\ams\math\amstext.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\ams\math\amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\ams\math\amsgen.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\ams\math\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen106
 ))
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\ams\math\amsbsy.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\ams\math\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen107
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\ams\math\amsopn.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\ams\math\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count91
@@ -367,46 +342,37 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\amsfonts\amsfonts.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\amsfonts\amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\amsfonts\amssymb.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\amsfonts\amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\graphics\graphicx.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\graphics\graphics.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\graphics\trig.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\00miktex\graphics.cfg"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\pdftex-def\pdftex.def"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\pdftex-def\pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\generic\oberdiek\infwarerr.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\generic\oberdiek\ltxcmds.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count103
@@ -414,8 +380,7 @@ Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen115
 \Gin@req@width=\dimen116
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\float\float.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count104
 \float@exts=\toks22
@@ -423,22 +388,18 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks23
 \@floatcapt=\box29
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\geometry\geometry.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\geometry\geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\generic\oberdiek\ifpdf.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\generic\oberdiek\ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\generic\oberdiek\ifvtex.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\generic\oberdiek\ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\generic\ifxetex\ifxetex.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\generic\ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count105
@@ -454,10 +415,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen124
 \Gm@dimlist=\toks24
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\geometry\geometry.cfg"))
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\fancyhdr\fancyhdr.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\geometry\geometry.cfg))
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\fancyhdr\fancyhdr.sty
 \fancy@headwidth=\skip46
 \f@ncyO@elh=\skip47
 \f@ncyO@erh=\skip48
@@ -468,8 +427,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \f@ncyO@olf=\skip53
 \f@ncyO@orf=\skip54
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\tools\longtable.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\tools\longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip55
 \LTright=\skip56
@@ -487,8 +445,7 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count112
 \LT@p@ftn=\toks25
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\listings\listings.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\listings\listings.sty
 \lst@mode=\count113
 \lst@gtempboxa=\box34
 \lst@token=\toks26
@@ -502,21 +459,18 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \lst@lineno=\count118
 \lst@maxwidth=\dimen129
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\listings\lstmisc.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count119
 \lst@skipnumbers=\count120
 \lst@framebox=\box35
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\listings\listings.cfg"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\listings\listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\subfigure\subfigure.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip59
 \subfigcapskip=\skip60
@@ -532,22 +486,17 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\subfigure\subfigure.cfg")
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\subfigure\subfigure.cfg)
 \subfig@top=\skip63
 \subfig@bottom=\skip64
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\hyperref\hyperref.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\hyperref\hyperref.sty
 Package: hyperref 2011/12/04 v6.82m Hypertext links for LaTeX
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\generic\oberdiek\hobsub-hyperref.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\generic\oberdiek\hobsub-hyperref.sty
 Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\generic\oberdiek\hobsub-generic.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\generic\oberdiek\hobsub-generic.sty
 Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -583,24 +532,21 @@ Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
 Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\oberdiek\kvoptions.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\oberdiek\kvoptions.sty
 Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
 )
 \@linkdim=\dimen132
 \Hy@linkcounter=\count125
 \Hy@pagecounter=\count126
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\hyperref\pd1enc.def"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\hyperref\pd1enc.def
 File: pd1enc.def 2011/12/04 v6.82m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count127
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\00miktex\hyperref.cfg"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4046.
@@ -612,8 +558,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4284.
 \c@Hy@tempcnt=\count128
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\ltxmisc\url.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\ltxmisc\url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
@@ -637,46 +582,37 @@ LaTeX Info: Redefining \pageref on input line 5831.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\hyperref\hpdftex.def"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\hyperref\hpdftex.def
 File: hpdftex.def 2011/12/04 v6.82m Hyperref driver for pdfTeX
 \Fld@listcount=\count133
 \c@bookmark@seq@number=\count134
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\oberdiek\rerunfilecheck.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\oberdiek\rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip65
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\graphics\color.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\graphics\color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\00miktex\color.cfg"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\graphics\dvipsnam.def"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\graphics\dvipsnam.def
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 
 Package hyperref Warning: Option `backref' has already been used,
 (hyperref)                setting the option has no effect on input line 17.
 
-
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\ms\ragged2e.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\ms\ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\ms\everysel.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\ms\everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \CenteringLeftskip=\skip66
@@ -694,8 +630,7 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip78
 \JustifyingParindent=\skip79
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\booktabs\booktabs.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\booktabs\booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen135
 \lightrulewidth=\dimen136
@@ -715,12 +650,10 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count138
 \@thisrulewidth=\dimen147
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\tools\tabularx.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\tools\tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\tools\array.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\tools\array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen148
 \extrarowheight=\dimen149
@@ -736,8 +669,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@cols=\count139
 \TX@ftn=\toks28
 ))
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\style/style.t
-ex"
+(C:\USBTeX-1.7\rapport\Rapport-TN10\style/style.tex
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 12.
@@ -750,10 +682,8 @@ less on input line 15.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 18.
 
-)
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\title/title.t
-ex")
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\Rapport.aux")
+) (C:\USBTeX-1.7\rapport\Rapport-TN10\title/title.tex)
+(C:\USBTeX-1.7\rapport\Rapport-TN10\Rapport.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
@@ -772,13 +702,12 @@ LaTeX Info: Redefining \degres on input line 23.
 LaTeX Info: Redefining \dots on input line 23.
 LaTeX Info: Redefining \up on input line 23.
 
+
 Package frenchb.ldf Warning: OT1 encoding should not be used for French. 
 (frenchb.ldf)                Add \usepackage[T1]{fontenc} to the preamble
 (frenchb.ldf)                of your document, on input line 23.
 
-
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\context\base\supp-pdf.mkii"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count140
 \scratchdimen=\dimen155
@@ -829,13 +758,10 @@ Package frenchb.ldf Warning: OT1 encoding should not be used for French.
 \c@lstlisting=\count146
 \AtBeginShipoutBox=\box37
 Package hyperref Info: Link coloring OFF on input line 23.
-
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\hyperref\nameref.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\hyperref\nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\generic\oberdiek\gettitlestring.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count147
@@ -844,9 +770,10 @@ LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
 LaTeX Info: Redefining \nameref on input line 23.
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\Rapport.out")
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\Rapport.out")
+(C:\USBTeX-1.7\rapport\Rapport-TN10\Rapport.out)
+(C:\USBTeX-1.7\rapport\Rapport-TN10\Rapport.out)
 \@outlinefile=\write3
+
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 23.
 
@@ -858,66 +785,52 @@ Package pdftex.def Info: title/images/logo_utc.png used on input line 26.
 (pdftex.def)             Requested size: 204.85974pt x 72.44098pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 26.
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\amsfonts\umsa.fd"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 26.
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\amsfonts\umsb.fd"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [1
 
 
-{C:/Users/yinan.zhu/Desktop/Nouveau dossier/USBTeX-1.7/programs/MiKTeX_2.9/pdft
-ex/config/pdftex.map} <C:/Users/yinan.zhu/Desktop/Nouveau dossier/rapport/Rappo
-rt-TN10/title/images/logo_utc.png>]
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\body/pages/ch
-apitre-prefix/remerciements.tex")
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\body/pages/ch
-apitre-prefix/abstract-fr.tex" [1
+{C:/USBTeX-1.7/programs/MiKTeX_2.9/pdftex/config/pdftex.map} <C:/USBTeX-1.7/rap
+port/Rapport-TN10/title/images/logo_utc.png>]
+(C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-prefix/remerciements.te
+x)
+(C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-prefix/abstract-fr.tex
+[1
 
 
 ]) [2
 
 ]
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\Rapport.toc"
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
+\tf@toc=\write4
 [3
 
-])
-\tf@toc=\write4
+]
 
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 15.71667pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-<style/images/logo_utc.png, id=195, 85.15816pt x 30.1125pt>
-File: style/images/logo_utc.png Graphic file (type png)
-
-<use style/images/logo_utc.png>
-Package pdftex.def Info: style/images/logo_utc.png used on input line 31.
-(pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
- [4 <C:/Users/yinan.zhu/Desktop/Nouveau dossier/rapport/Rapport-TN10/style/imag
-es/logo_utc.png>]
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\Rapport.lof")
 \tf@lof=\write5
+[4
+
+]
+
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
+
+\tf@lot=\write6
 [5
 
-]
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\Rapport.lot")
-\tf@lot=\write6
-[6
-
-]
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\body/pages/ch
-apitre-intro/chapitre.tex"
+] (C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-intro/chapitre.tex
 Chapitre 1.
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\body/pages/ch
-apitre-intro/intro-entreprise/intro.tex"
+(C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-intro/intro-entreprise/
+intro.tex
 Overfull \hbox (3.1345pt too wide) in paragraph at lines 4--5
 []\OT1/cmr/m/n/12 Specialisee dans le mar-ke-ting operationnel, DATA-GEST e
 volue de-puis plu-sieurs annees
@@ -929,8 +842,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
  []
 
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\body/pages/ch
-apitre-intro/intro-entreprise/mission-principale/mission-principale.tex"
+(C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-intro/intro-entreprise/
+mission-principale/mission-principale.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+<style/images/logo_utc.png, id=172, 85.15816pt x 30.1125pt>
 File: style/images/logo_utc.png Graphic file (type png)
 
 <use style/images/logo_utc.png>
@@ -944,17 +864,16 @@ l.22
       [1
 
 
-]
+ <C:/USBTeX-1.7/rapport/Rapport-TN10/style/images/logo_utc.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\base\omscmr.fd"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\base\omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 
-<body/images/figure_example.png, id=229, 230.8625pt x 108.405pt>
+<body/images/figure_example.png, id=180, 230.8625pt x 108.405pt>
 File: body/images/figure_example.png Graphic file (type png)
 
 <use body/images/figure_example.png>
@@ -975,43 +894,47 @@ File: style/images/logo_utc.png Graphic file (type png)
 <use style/images/logo_utc.png>
 Package pdftex.def Info: style/images/logo_utc.png used on input line 61.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
- [2 <C:/Users/yinan.zhu/Desktop/Nouveau dossier/rapport/Rapport-TN10/body/image
-s/figure_example.png>]))
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\body/pages/ch
-apitre-intro/intro-sujet/intro.tex"))
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\body/pages/ch
-apitre-pretude/chapitre.tex"
+ [2 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/figure_example.png>]))
+(C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-intro/intro-sujet/intro
+.tex))
+(C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-pretude/chapitre.tex
 File: style/images/logo_utc.png Graphic file (type png)
- <use style/images/logo_utc.png>
+
+<use style/images/logo_utc.png>
 Package pdftex.def Info: style/images/logo_utc.png used on input line 1.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
  [3]
 Chapitre 2.
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\body/pages/ch
-apitre-pretude/serveur/intro.tex"
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\body/pages/ch
-apitre-pretude/serveur/serveur-local.tex")
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\body/pages/ch
-apitre-pretude/serveur/serveur-distant.tex"
+(C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-pretude/serveur/intro.t
+ex
+(C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-pretude/serveur/serveur
+-local.tex)
+(C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-pretude/serveur/serveur
+-distant.tex
+
+Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
+ Make it at least 15.71667pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 File: style/images/logo_utc.png Graphic file (type png)
- <use style/images/logo_utc.png>
+<use style/images/logo_utc.png>
 Package pdftex.def Info: style/images/logo_utc.png used on input line 9.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
-
-[4
+ [4
 
 ])
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\body/pages/ch
-apitre-pretude/serveur/problem.tex"))
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\body/pages/ch
-apitre-pretude/moduleDG/intro.tex"
+(C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-pretude/serveur/problem
+.tex))
+(C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-pretude/moduleDG/intro.
+tex
 File: style/images/logo_utc.png Graphic file (type png)
  <use style/images/logo_utc.png>
 Package pdftex.def Info: style/images/logo_utc.png used on input line 11.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
  [5]
-<body/images/ModuleDG.png, id=268, 433.62pt x 216.81pt>
+<body/images/ModuleDG.png, id=221, 433.62pt x 216.81pt>
 File: body/images/ModuleDG.png Graphic file (type png)
 
 <use body/images/ModuleDG.png>
@@ -1024,9 +947,8 @@ mo-du-leDG afin de contr^oler.(Valider
  []
 
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\body/pages/ch
-apitre-pretude/kdomotiv/intro.tex"
-<body/images/Procedure-kdomotiv.png, id=269, 469.755pt x 325.215pt>
+(C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-pretude/kdomotiv/intro.
+tex <body/images/Procedure-kdomotiv.png, id=222, 469.755pt x 325.215pt>
 File: body/images/Procedure-kdomotiv.png Graphic file (type png)
 
 <use body/images/Procedure-kdomotiv.png>
@@ -1038,22 +960,19 @@ File: style/images/logo_utc.png Graphic file (type png)
 Package pdftex.def Info: style/images/logo_utc.png used on input line 22.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
 
-[6 <C:/Users/yinan.zhu/Desktop/Nouveau dossier/rapport/Rapport-TN10/body/images
-/ModuleDG.png>]
+[6 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/ModuleDG.png>]
 Overfull \hbox (2.85648pt too wide) in paragraph at lines 24--26
 []\OT1/cmr/m/n/12 : Cette so-lu-tion est gra-cieu-se-ment mise a votre dis-po-
 si-tion. De plus elle presente
  []
 
-))
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\body/pages/ch
-apitre-stage/chapitre.tex"
+)) (C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-stage/chapitre.tex
 File: style/images/logo_utc.png Graphic file (type png)
- <use style/images/logo_utc.png>
+
+<use style/images/logo_utc.png>
 Package pdftex.def Info: style/images/logo_utc.png used on input line 1.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
- [7 <C:/Users/yinan.zhu/Desktop/Nouveau dossier/rapport/Rapport-TN10/body/image
-s/Procedure-kdomotiv.png>]
+ [7 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/Procedure-kdomotiv.png>]
 Chapitre 3.
 File: style/images/logo_utc.png Graphic file (type png)
 <use style/images/logo_utc.png>
@@ -1067,7 +986,7 @@ File: style/images/logo_utc.png Graphic file (type png)
 Package pdftex.def Info: style/images/logo_utc.png used on input line 67.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
  [9]
-<body/images/redmine-accueil.PNG, id=300, 407.27156pt x 680.5425pt>
+<body/images/redmine-accueil.PNG, id=256, 407.27156pt x 680.5425pt>
 File: body/images/redmine-accueil.PNG Graphic file (type png)
 
 <use body/images/redmine-accueil.PNG>
@@ -1078,37 +997,99 @@ File: style/images/logo_utc.png Graphic file (type png)
  <use style/images/logo_utc.png>
 Package pdftex.def Info: style/images/logo_utc.png used on input line 81.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
- [10 <C:/Users/yinan.zhu/Desktop/Nouveau dossier/rapport/Rapport-TN10/body/imag
-es/redmine-accueil.PNG>])
+ [10 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/redmine-accueil.PNG>]
+<body/images/conf-svn.png, id=264, 454.69875pt x 338.76563pt>
+File: body/images/conf-svn.png Graphic file (type png)
+
+<use body/images/conf-svn.png>
+Package pdftex.def Info: body/images/conf-svn.png used on input line 109.
+(pdftex.def)             Requested size: 284.52756pt x 211.98643pt.
+File: style/images/logo_utc.png Graphic file (type png)
+ <use style/images/logo_utc.png>
+Package pdftex.def Info: style/images/logo_utc.png used on input line 116.
+(pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
+ [11]
+<body/images/svn-problem-permission.png, id=275, 508.90125pt x 120.45pt>
+File: body/images/svn-problem-permission.png Graphic file (type png)
+
+<use body/images/svn-problem-permission.png>
+Package pdftex.def Info: body/images/svn-problem-permission.png used on input l
+ine 121.
+(pdftex.def)             Requested size: 284.52756pt x 67.34677pt.
+
+<body/images/websvn.png, id=276, 927.465pt x 258.9675pt>
+File: body/images/websvn.png Graphic file (type png)
+
+<use body/images/websvn.png>
+Package pdftex.def Info: body/images/websvn.png used on input line 129.
+(pdftex.def)             Requested size: 426.79134pt x 119.16995pt.
+File: style/images/logo_utc.png Graphic file (type png)
+ <use style/images/logo_utc.png>
+Package pdftex.def Info: style/images/logo_utc.png used on input line 137.
+(pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
+ [12 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/conf-svn.png> <C:/USBTeX-1
+.7/rapport/Rapport-TN10/body/images/svn-problem-permission.png>]
+<body/images/dukowiki.png, id=286, 144.54pt x 142.28156pt>
+File: body/images/dukowiki.png Graphic file (type png)
+
+<use body/images/dukowiki.png>
+Package pdftex.def Info: body/images/dukowiki.png used on input line 155.
+(pdftex.def)             Requested size: 144.53963pt x 142.2812pt.
+
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \end{itemize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.160 \end{itemize}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+)
 File: style/images/logo_utc.png Graphic file (type png)
  <use style/images/logo_utc.png>
 Package pdftex.def Info: style/images/logo_utc.png used on input line 37.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
- [11]
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\body/pages/co
-nclusion.tex")
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\Rapport.bbl"
-[12
+ [13 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/websvn.png> <C:/USBTeX-1.7
+/rapport/Rapport-TN10/body/images/dukowiki.png>]
+File: style/images/logo_utc.png Graphic file (type png)
+ <use style/images/logo_utc.png>
+Package pdftex.def Info: style/images/logo_utc.png used on input line 37.
+(pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
+ [14]
+(C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/conclusion.tex)
+(C:\USBTeX-1.7\rapport\Rapport-TN10\Rapport.bbl [15
 
 
 ]
+Underfull \hbox (badness 7869) in paragraph at lines 16--18
+[] \OT1/cmr/m/n/12 HOOK  http ://www.clever-age.com/veille/blog/utilisation-des
+-hooks-avec-
+ []
+
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
-)
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\appendix/titr
-eA.tex" [13
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+) (C:\USBTeX-1.7\rapport\Rapport-TN10\appendix/titreA.tex [16
 
 ]
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\listings\lstlang1.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\USBTeX-1.7\programs\MiKTeX_2.9\tex
-\latex\listings\lstlang1.sty"
+(C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\appendix/main
-.cf"
+(C:\USBTeX-1.7\rapport\Rapport-TN10\appendix/main.cf
 Overfull \hbox (80.55496pt too wide) in paragraph at lines 1--4
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1128,7 +1109,7 @@ Overfull \hbox (59.405pt too wide) in paragraph at lines 27--28
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[14
+[17
 
 ]))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
@@ -1136,10 +1117,10 @@ File: style/images/logo_utc.png Graphic file (type png)
  <use style/images/logo_utc.png>
 Package pdftex.def Info: style/images/logo_utc.png used on input line 44.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
- [15]
+ [18]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
 
-("C:\Users\yinan.zhu\Desktop\Nouveau dossier\rapport\Rapport-TN10\Rapport.aux"
+(C:\USBTeX-1.7\rapport\Rapport-TN10\Rapport.aux
 ! Missing \endcsname inserted.
 <to be read again> 
                    \unhbox 
@@ -1159,38 +1140,33 @@ I'm ignoring this, since I wasn't doing a \csname.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
 Package rerunfilecheck Info: File `Rapport.out' has not changed.
-(rerunfilecheck)             Checksum: A44CB12A2B4687F484FFB5B811C7EE47;2202.
+(rerunfilecheck)             Checksum: 0AB42DF337AFF49EAAA0C90D814F56DD;2170.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 9955 strings out of 494045
- 151276 string characters out of 3137468
- 296981 words of memory out of 3000000
- 12852 multiletter control sequences out of 15000+200000
+ 9985 strings out of 494045
+ 143445 string characters out of 3137468
+ 296980 words of memory out of 3000000
+ 12870 multiletter control sequences out of 15000+200000
  12056 words of font info for 44 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  36i,14n,52p,733b,1943s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/yinan.zhu/Desktop/Nouveau dossier/USBTeX-1.7/programs/MiKTeX_2.9/fo
-nts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/yinan.zhu/Desktop/Nouveau dos
-sier/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-<C:/Users/yinan.zhu/Desktop/Nouveau dossier/USBTeX-1.7/programs/MiKTeX_2.9/font
-s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yinan.zhu/Desktop/Nouveau dossie
-r/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/U
-sers/yinan.zhu/Desktop/Nouveau dossier/USBTeX-1.7/programs/MiKTeX_2.9/fonts/typ
-e1/public/amsfonts/cm/cmr6.pfb><C:/Users/yinan.zhu/Desktop/Nouveau dossier/USBT
-eX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/yi
-nan.zhu/Desktop/Nouveau dossier/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsl12.pfb><C:/Users/yinan.zhu/Desktop/Nouveau dossier/USBTeX-1.
-7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/yinan
-.zhu/Desktop/Nouveau dossier/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/
-amsfonts/cm/cmsy6.pfb><C:/Users/yinan.zhu/Desktop/Nouveau dossier/USBTeX-1.7/pr
-ograms/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Rapport.pdf (22 pages, 365483 bytes).
+<C:/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
+C:/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
+USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/USB
+TeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/USBTeX-
+1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/USBTeX-1.7/
+programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/USBTeX-1.7/pr
+ograms/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/USBTeX-1.7/prog
+rams/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/USBTeX-1.7/program
+s/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Rapport.pdf (24 pages, 417178 bytes).
 PDF statistics:
- 441 PDF objects out of 1000 (max. 8388607)
- 144 named destinations out of 1000 (max. 500000)
- 295 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 430 PDF objects out of 1000 (max. 8388607)
+ 158 named destinations out of 1000 (max. 500000)
+ 315 words of extra memory for PDF output out of 10000 (max. 10000000)
 
