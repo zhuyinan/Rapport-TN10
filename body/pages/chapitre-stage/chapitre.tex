@@ -93,7 +93,7 @@ Afin de fixer le problème que j'avais avant concernent le mails. J'ai installé
 	8888 & PhpMyAdmin, interface graphique pour la gestion Base de donnée \\ 	 
   \bottomrule
 \end{tabular}
- \caption{\label{tab:Service de différents portes}Service de différents portes}
+ \caption{Service de différents portes}
 \end{table}
 
 \subsection{Configuration un serveur SVN sur seveur distant}
@@ -159,9 +159,317 @@ Ce que j'ai rédigé principal dans le wiki sont la gestion de SVN sur serveur d
 \newpage
 
 \section[Amélioration KdoMotiv]{Amélioration du framework KdoMotiv}
-La mission principale pendant mon stage est d'améliorer le framework KdoMotiv médium. 
+\subsection*{}
+La mission principale pendant mon stage est d'améliorer le framework KdoMotiv médium. En fait KdoMotiv est déjà développé par l'ancien stagiaire. A cause de son niveau de programmation, il ne connaît pas la programmation orienté objet(POO). Par conséquence, tout le framework de KdoMotiv est développé en PHP procédure. Ça cause de problème de maintenance et le debug comme il n'y a pas de documentation, ni de commentaire sur le KdoMotiv, le stagiaire suivant est difficile de maîtriser tout le projet. En plus, après avoir testé la fonctionnement, j'ai trouvé qu'il existe encore beaucoup de erreurs et beaucoup de parties reste à faire.
+
+C'est pourquoi j'ai discuté avec le patron afin de refaire tout de KdoMotiv en PHP objet. Mais comme ça prend du temps et aussi du frais de l'entreprise. Après avoir bien réfléchi les conditions et les situations actuels. Le patron à refusé ma propositions. En plus, je ne peux pas assurer ce que je ferai est stable et mieux que le framework KdoMotv actuel. 
+
+\begin{figure}[hbtp]
+\center
+\includegraphics[scale=1]{body/images/kdomotiv.png}
+\caption{KdoMotiv Logo}
+\end{figure}
+
+
+Par conséquence, mon tuteur m'a demandé d'améliorer du framework KdoMotiv, y compris le debug et aussi finir des fonctionnalité lesquels on n'a pas encore réalisé, afin de faire un framework plus stable et complet.
+
+Les étapes de conséquences sont comme ci-dessous : 
+\begin{enumerate}
+\item Debuger tout le site, trouver tous les erreurs dès que possible.
+\item Compléter les fonctions qui n'ont pas encore fini.
+\item Ajouter nouvelles fonctions et modules sur KdoMotiv.
+\item Normaliser les formule afin de adapter à ERP de Data-Gest  
+\end{enumerate}
+
+\subsection{Introduction structure de KdoMotiv}
+J'ai parlé ici plutôt le KdoMotiv médium. KdoMotiv médium est composé par deux parties principal. Le Back Office et le front office. Ce structure est comme CMS wordpress. Back Office sert à l'administration et la configuration de KdoMotiv. Front Office est l'interface pour les participants de visiter la boutique et les résultats de ses challenges.
+
+On a choisi le projet Beru qui est le projet plus proche et stable en utilisant KdoMotiv, comme le base de nouveau KdoMoitv sur lequel on va faire le nouveaux développement.
+
+
+
+\subsection{Debuger KdoMotiv}
+La première étape est de debuger tout le site, le Front Office  et aussi Back Office. 
+Le debug est composé par :
+\begin{itemize}
+\item [-] Debug par pages du site. Surtout sur front office.
+\item [-] Debug par module du site. Surtout sur back office.
+\item [-] Tester la fonctionnalité de site, y compris les étape de commande fonctionne bien, la fonction de mail de confirmation marche bien, etc.
+\end{itemize}
+
+J'ai séparé les taches avec mon collègue. il s'est occupé de debuger le Front Office. je me suis occupé de debuger le Back Office.
+
+Les problèmes principales sont toujours des codages de page, lès variable GET et POST ne passe pas a la page suivant etc.
+
+
+\paragraph{}
+Ici j'ai listé les bugs sur front office(FO), les bugs sont testé par chaque page. 
+
+\begin{table}[htbp]
+\renewcommand{\tabularxcolumn}[1]{>{\arraybackslash}m{#1}}
+\begin{tabularx}{\textwidth}{lX}
+\hline 
+PAGES
+ & BUGS
+ \\ 
+\hline 
+Panier.php
+ & header\_information + Problème accents "QtÃ©"
+ \\ 
+\hline 
+Panier.php/livraison
+ & Info bulles ne disparaissent pas après écriture dans le champ sépcifié
+ \\ 
+\hline 
+Panier.php/Confirmation
+ & Injection sql dans les formulaires suite à injection de caractères bizarres
+ \\ 
+\hline 
+Panier.php/validation
+ & Dans le header le solde se traduit avec des points
+ \\ 
+\hline 
+Panier
+ & Après une commande, le header affiche le prénom du user au lieu du pseudo, le mot "étoile" n'est plus affiché par rapport à la Validation. Les champs "société" et adresse ne sont pas affichés dans le récapitulatif.
+ \\ 
+\hline 
+Palier
+ & Pourquoi une page palier  d'abord alors que les catégories sont déjà listées dans la page boutique.
+ \\ 
+\hline 
+compte.php
+ & Relevé d'étoiles ne fonctionne pas.
+ \\ 
+\hline 
+\end{tabularx} 
+ \caption{bugs de Front Office}
+\end{table}
+
+\paragraph{}
+J'ai testé le Back office de KdoMotiv. En plus, j'ai debugé selon la fonctionnalité de backoffice et testé un module par un module. Le page suivant liste tous les bugs pendant mon test. C'est un test totalement et complètement. 
+
+Après le test, j'ai défini le valeur d'importance de chaque bug, et décidé la séquence de résoudre chaque problème. A cause de KdoMotiv est programmé par PHP en procédure dure, en plus , il n'a pas de documentation de KdoMotiv ni de commentaire de code, ça prend du temps de tous les trouver.
+
+\begin{table}[htbp]
+\renewcommand{\tabularxcolumn}[1]{>{\arraybackslash}m{#1}}
+\begin{tabularx}{\textwidth}{lX}
+\hline 
+MODULES & BUGS \\ 
+\hline 
+Tous
+ & Change le logo de backoffice. Il faut trouver que si le logo de BO et FO est configuré dans même endoit
+ \\ 
+\hline 
+Menu bar
+ & Par très compatible avec chrome, quelque fois on ne peut pas choisir le sous-onglet de menu
+ \\ 
+\hline 
+Participants
+ & Il faut utiliser jqgrid pour la gestion. Il faut ajouter un lien pour accéder à la détail des information de chaque participant. Aussi changer le titre
+ \\ 
+\hline 
+• & Pour modifier le détail de participant, je ne peux pas tester, il depend un pear extension qui n'est pas installé sur serveur dev
+ \\ 
+\hline 
+Commandes
+ & Change le titre. Pour la liste, soit on ajouter le lien d'accéder pour voir le détail de commande, soit on fait un sous jqgrid table pour voir le détail de commande.
+ \\ 
+\hline 
+Cadeaux
+ & Dans le colonne  "univers", le type "tous" c'est pas le valeur par défaut pour le recherche. Mais j'ai déjà tester tous le méthode, ce ne marche pas pour le mettre à le premier positon pour le recherche.
+ \\ 
+\hline 
+CMS
+ & Contenu de la page résultat -\textgreater je ne sais pas il sert à quoi
+ \\ 
+\hline 
+• & Info popup lightbox -\textgreater Il faut trouver à quoi il  sert 
+ \\ 
+\hline 
+Modules
+ & Pour les bouton "supprimer" "modifier" "nouveau", tous ne fonctionne pas.
+ \\ 
+\hline 
+• & New-\textgreater ne peut pas tester à cause de problème de "extension"  n'est pas installer sur serveur dev
+ \\ 
+\hline 
+• & Quiz-\textgreater Un Waring dans entête.  (Quand il y des quiz dans BDD, le warning disparu)  
+ \\ 
+\hline 
+• & Faq-\textgreater Caractère spécieux dans titre de FAQ, dans le contenu , tous c'est bon.   
+ \\ 
+\hline 
+Données
+ & Visite du site-\textgreater Ne pouvez pas exporter
+ \\ 
+\hline 
+• & Export des bonus-\textgreater Même problème
+ \\ 
+\hline 
+• & Export tax-\textgreater Pas bonne requête, unknown colonne
+ \\ 
+\hline 
+• & Export des quiz -\textgreater warning dans la tête, si la liste de quiz est vide
+ \\ 
+\hline 
+Configuration
+ & Connexion-\textgreater même si on change le base dans BO, il sert à rien
+ \\ 
+\hline 
+• & Logo client -\textgreater sert à rien, rien changer ni dans BO, ni dans FO
+ \\ 
+\hline 
+• & Participant FO-\textgreater fonctionne pas du tous
+ \\ 
+\hline 
+\end{tabularx} 
+ \caption{bugs de Back Office}
+\end{table}  
 
 
 \newpage
-\section{Projets}
+
+\subsection{Amélioration du interface graphique de Back Office}
+Comme j'ai déjà raconté avant, il y a des problèmes de compatibilités avec la navigation bar dans Back Office. En plus, il y a aussi quelque partie n'affiche pas bon. C'est pourquoi je vais changer toute la intégration HTML de back office.
+
+Dans projet de KdoMotiv, j'ai choisi Twitter Bootstrap comme le framework de intégration HTML. En fait, Twitter Bootstrap est une collection de outils gratuits utilisé pour la création des sites et aussi applications web. Il contient tous les designs basé sur HTML et CSS pour typography, formulaire, bouton, navigation et des autre interface composants, aussi bien que Javascript extensions.
+
+\subsubsection{Changer la navigation bar}
+L'ancienne navigation bar est comme la figure cinéma ci-dessous. Il y a non seulement du problème de compatibilité avec différent navigateur, mais aussi pas très claire avec la séparation de fonctionnalité.
+\begin{figure}[hbtp]
+\center
+\includegraphics[width=15cm]{body/images/navbar-old.png}
+\caption{Ancienne navigation bar}
+\end{figure}
+
+Par exemple, on peut trouver tous lès fonctionnalité d'exporter données dans onglet données, mais les fonctionnalité d'importer données sont dans onglet système. Ce n'est pas logique et pratique pour les utilisateur d'administrer.
+
+
+
+ \begin{figure}[hbtp]
+\center
+\includegraphics[width=15cm]{body/images/navbar-new.png}
+\caption{Nouvelle navigation bar}
+\end{figure}
+
+Par contre, dans le framework de Twitter Bootstrap, il y a une navigation bar pré-définit qui est compatible avec tous les navigateur plus proche lesquels soutiennent HTML5 et CSS3.
+
+Dans la nouvelle navigation bar, j'ai intégré tous les informations de connexions dans navigation bar, et aussi séparation les fonctionnalité sous propre onglet, comme les fonctionnalités des données dans la figure ci-dissous. 
+
+ \begin{figure}[hbtp]
+\center
+\includegraphics[width=5cm]{body/images/info-connexion.png}
+\caption{Nouvelle navigation bar}
+\end{figure}
+
+En plus, j'ai aussi ajouter une petite fonction de fixer la navigation bar en haut quand le navigateur détecte l'événement de scroll. Cette fonction est pratique quand le contenu de page est très long mais on va aussi utiliser la navigation bar.
+
+J'ai aussi changé des autre pages et les met dans le cadre de Twitter Bootstrap. Par exemple, le page de participant, qui sert à la gestion des participant de challenge, le page de la configuration , tous les "alert-box" sont utilisés Bootstrap.
+\begin{figure}
+  \centering
+  \subfigure[Ancien sidebar]{\label{fig:Ancien side bar}\includegraphics[width=0.2\textwidth]{body/images/sidebar-old.png}}                
+  \subfigure[Nouveau sidebar]{\label{fig:Nouveau side bar}\includegraphics[width=0.2\textwidth]{body/images/sidebar-new.png}}
+  \caption{Amélioration du sidebar}
+  %\label{fig:Amélioration du sidebar}
+\end{figure}
+
+
+
+\subsection{Amélioration des formulaires}
+
+\subsubsection{PEAR Qucik Form}
+Il y a beaucoup de cas on doit utiliser formulaire dans Back office.
+Par exemple, quand on gère  des participant, il faut toujours utiliser les formulaire de modifier les informations de participant, le formulaire de changer le carnet d'adresse de participant, aussi les résultats de participant. 
+
+Mais dans le ancien KdoMotiv, comme il est programmé par PHP en procédure, ce n'est pas facile de tous lès contrôler, il y a environ vingtaine formulaires, les fonctionnalité sont presque la même, mais il faut toujours répéter de refait le formulaire.
+
+Dans ce cas, j'ai introduit une extension dans PERA \footnote{PHP Extension and Application Repository} qui s'appelle PHP quick form. C'est une extension de développer formulaire rapidement. Tous les formulaire sont généré automatiquement selon les variables lesquelles j'ai donné dans un tableau. 
+
+\begin{figure}[hbtp]
+\center
+\includegraphics[width=3cm]{body/images/pear_logo.png}
+\caption{Logo PEAR}
+\end{figure}
+
+
+Afin de appliquer le Quick Form, il faut installer PEAR sur le serveur. J'ai demandé a l'administrateur d'OVH de me donne le droit lancer commande "PEAR" sur le serveur distant. Ensuite, j'ai juste mis à jour de PEAR et installé  les modules dépendants. 
+
+\begin{figure}[hbtp]
+\center
+\includegraphics[width=10cm]{body/images/pear_quickform.png}
+\caption{PEAR Quick Form}
+\end{figure}
+
+Après j'ai réussi d'installer Quick-Form, on peut le trouver dans la liste de PEAR. L'utilisation du Quick Form est facile. (Quick Form utilise la programmation orienté objet) Comme les étapes suivants.
+\begin{enumerate}
+\item Créer une classe de formulaire.
+\item Ajouter les éléments de formulaire.
+\item Ajouter les règles de contraintes de formulaire.
+\item Générer le formulaire automatiquement. 
+\end{enumerate}
+
+J'ai remplacé tous des formulaire traditionnel par Quick Form dans KdoMotiv Back Office.
+
+\subsubsection{Contrôler le longueur du champs}
+Quand on passe tous les commande à ERP, il faut contrôler le longueur de chaque champs comme il y a des contraintes de longueur sur les champs de matricule, adresse, adresse complet , dans l'application de ERP(Navision) et aussi l'application d'expédition(La Poste)
+
+Par conséquence, il faut les tous contrôler afin de ne pas poser des erreurs quand on injecte des données dans la base de Data-Gest.
+
+\subsection{Gestion des tableaux avec jqGrid}
+Dans le back office de KdoMotiv, on doit utiliser beaucoup de tableaux. Par exemple, la liste de tableau de participant, la liste de tableau de cadeaux, la liste de tableau de commandes passés, etc. Il y a souvent des opérations de modifier, insérer, supprimer, rechercher sur les données dans le tableau.
+
+Mon tuteur de m'a introduit le jqGrid, et demandé de remplacer tous les tableaux par jqGrid ,qui est une libraire utilisée pour la création de tableaux multidimensionnels complexes.
+
+En fait, Data-Gest a déjà acheté la licence de jqGird,  Mais pas encore tous intégré dans le framework de KdoMotiv. 
+
+Le principe de jqGrid est comme ci-dissous:
+Une instance d’un jqGrid est un objet javascript avec des propriétés, des évènements et des méthodes. Les propriétés peuvent être de valeur numérique, alphabétique, booléenne, de  tableau ou même d’un autre objet. La convention de base ci-dessous vous permettra de créer la base d’un jqGrid avec les options qu’elle doit contenir par défaut.
+
+\begin{lstlisting}[language= html, numbers=left, numberstyle=\tiny,  frame=shadowbox]
+<div id="jqGrid">
+      <table id="grid"></table>
+      <div id="gridPager"></div>
+</div>
+\end{lstlisting}
+
+Quand on crée un instance et attribue tous variables nécessaire, le tableau va générer automatiquement.
+
+Mais quand on va créer une tableau plus avancé, par exemple , un sous-tableau dans tableau mère, ou en utilisant AJAX pendant le recherche ,etc. Il faut lire la documentation de jqgrid.
+
+Ci-dessous un exemple de liste de tableau lequel j'ai réalisé par jqGrid.
+\begin{figure}[hbtp]
+\includegraphics[width=16cm]{body/images/cadeau-new.png}
+\caption{Liste de cadeau par jgGrid}
+\end{figure}
+
+\begin{figure}[hbtp]
+\includegraphics[width=16cm]{body/images/cadeau-old.png}
+\caption{Ancien liste de cadeau par jgGrid}
+\end{figure}
+
+Par rapport à ancienne version de tableau, tous les opérations de données sont intégrés dans le tableau. L'opération de recherche est plus avancé que l'ancien tableau. En plus, il y a une fonction d'exporter des résultats de tableau en EXCEL ou PDF. Et aussi une mieux pagination.
+
+Comme c'est un logiciel avec licence privée, sauf que la documentation officiel de jqGrid, il n'y a pas de autre solution si j'ai eu les problèmes. Il y a un problème je n'ai pas encore résolu : 
+Dans la requête de SQL, il n'accepte pas les variable de GET et POST de PHP. 
+
+\subsection{Mettre des module modulable}
+Dans le back office, il faut ajouter les fonctions de mettre des module modulabe. Par exemple, si l'administrateur de site va désactiver le module de résultat afin de ne pas affiche des résultats de participant sur front office, il n'a pas besoin de demander à pôle web de modifier les code, par contre, c'est juste un bouton de contrôler. 
+
+Afin de réaliser cette fonction, il faut créer une table dans le base qui sert à sauvegarder tous les paramètres de configurations.  
+
+Les tables de configurations sont crées selon la différente fonctionnalité. 
+\begin{figure}[hbtp]
+\center
+\includegraphics[width=4cm]{body/images/config.png}
+\caption{Configuration des tables}
+\end{figure}
+
+
+
+ 
+	
+\newpage
+\section{Projets Réalisé}
+Pendent mon stage,  j'ai réalisé mon 
+
 
