@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.3)  8 SEP 2012 21:48
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.3)  8 SEP 2012 23:13
 entering extended mode
 **Rapport.tex
 (C:\USBTeX-1.7\rapport\Rapport-TN10\Rapport.tex
@@ -908,7 +908,7 @@ Package pdftex.def Info: body/images/laposte.png used on input line 15.
 (pdftex.def)             Requested size: 136.57462pt x 122.33908pt.
 File: style/images/logo_utc.png Graphic file (type png)
  <use style/images/logo_utc.png>
-Package pdftex.def Info: style/images/logo_utc.png used on input line 35.
+Package pdftex.def Info: style/images/logo_utc.png used on input line 33.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
  [8]))
 (C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-pretude/chapitre.tex
@@ -1099,19 +1099,13 @@ File: body/images/navbar-new.png Graphic file (type png)
 <use body/images/navbar-new.png>
 Package pdftex.def Info: body/images/navbar-new.png used on input line 361.
 (pdftex.def)             Requested size: 426.79134pt x 168.18861pt.
-
-Overfull \hbox (0.347pt too wide) in paragraph at lines 365--366
-\OT1/cmr/m/n/12 definit qui est com-pa-tible avec tous les na-vi-ga-teur plus 
-proche les-quels sou-tiennent HTML5
- []
-
 File: style/images/logo_utc.png Graphic file (type png)
-<use style/images/logo_utc.png>
+ <use style/images/logo_utc.png>
 Package pdftex.def Info: style/images/logo_utc.png used on input line 366.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
  [24 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/navbar-old.png> <C:/USBTeX
--1.7/rapport/Rapport-TN10/body/images/navbar-new.png>] <body/images/info-connex
-ion.png, id=459, 206.27063pt x 192.72pt>
+-1.7/rapport/Rapport-TN10/body/images/navbar-new.png>]
+<body/images/info-connexion.png, id=459, 206.27063pt x 192.72pt>
 File: body/images/info-connexion.png Graphic file (type png)
 
 <use body/images/info-connexion.png>
@@ -1299,7 +1293,7 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 (C:\USBTeX-1.7\rapport\Rapport-TN10\appendix/main.cf.txt) [36
 
 ]
-<appendix/listing-problemes-web.JPG, id=592, 597.432pt x 845.0772pt>
+<appendix/listing-problemes-web.JPG, id=590, 597.432pt x 845.0772pt>
 File: appendix/listing-problemes-web.JPG Graphic file (type jpg)
 
 <use appendix/listing-problemes-web.JPG>
@@ -1307,7 +1301,7 @@ Package pdftex.def Info: appendix/listing-problemes-web.JPG used on input line
 10.
 (pdftex.def)             Requested size: 483.69684pt x 684.2122pt.
 
-<appendix/listing-problemes-web2.JPG, id=593, 597.432pt x 845.0772pt>
+<appendix/listing-problemes-web2.JPG, id=591, 597.432pt x 845.0772pt>
 File: appendix/listing-problemes-web2.JPG Graphic file (type jpg)
 
 <use appendix/listing-problemes-web2.JPG>
@@ -1359,37 +1353,31 @@ Package rerunfilecheck Warning: File `Rapport.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Rapport.out':
-(rerunfilecheck)             Before: 4361CC1BC658221D3289F16696B8E387;2878
-(rerunfilecheck)             After:  C7B13FE1C7A18BF24E91011E60F84C7F;2878.
+(rerunfilecheck)             Before: 92B66A3B771629884CC181511D16E9DE;2876
+(rerunfilecheck)             After:  B229F7587964318786AEFB0C960BC83C;2877.
  ) 
 Here is how much of TeX's memory you used:
- 10421 strings out of 494045
- 150579 string characters out of 3137468
- 289340 words of memory out of 3000000
+ 10419 strings out of 494045
+ 150556 string characters out of 3137468
+ 290340 words of memory out of 3000000
  13194 multiletter control sequences out of 15000+200000
  12056 words of font info for 44 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  35i,16n,51p,733b,1855s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{appendix*.53} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.52} has been referenced but does not exist
-, replaced by a fixed one
-
-<C:/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
-/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/U
-SBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/USBT
-eX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/USBTeX-
-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/USBTeX-1.7/
-programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/USBTeX-1.7/prog
-rams/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/USBTeX-1.7/progra
-ms/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/USBTeX-1.7/programs
-/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/USBTeX-1.7/programs/Mi
-KTeX_2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Rapport.pdf (40 pages, 4935940 bytes).
+<C:/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
+C:/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
+/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/US
+BTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/USBTe
+X-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/USBTeX-1.
+7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/USBTeX-1.7/pr
+ograms/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/USBTeX-1.7/prog
+rams/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/USBTeX-1.7/progra
+ms/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/USBTeX-1.7/programs/
+MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Rapport.pdf (40 pages, 4935870 bytes).
 PDF statistics:
- 695 PDF objects out of 1000 (max. 8388607)
- 234 named destinations out of 1000 (max. 500000)
+ 693 PDF objects out of 1000 (max. 8388607)
+ 232 named destinations out of 1000 (max. 500000)
  479 words of extra memory for PDF output out of 10000 (max. 10000000)
 

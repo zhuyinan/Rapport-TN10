@@ -3,12 +3,12 @@
 \contentsline {paragraph}{}{1}{section*.3}
 \contentsline {paragraph}{}{1}{section*.4}
 \contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introduction de l'entreprise}{7}{section.1.1}
+\contentsline {section}{\numberline {1.1}Introduction d'entreprise}{7}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Mission principale}{7}{subsection.1.1.1}
 \contentsline {paragraph}{}{7}{section*.10}
 \contentsline {subsection}{\numberline {1.1.2}Savoir-faire de Data-Gest}{8}{subsection.1.1.2}
 \contentsline {paragraph}{}{8}{section*.11}
-\contentsline {section}{\numberline {1.2}Introduction du sujet}{8}{section.1.2}
+\contentsline {section}{\numberline {1.2}Introduction de sujet}{8}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Description}{8}{subsection.1.2.1}
 \contentsline {paragraph}{}{8}{section*.12}
 \contentsline {paragraph}{}{8}{section*.13}
@@ -61,14 +61,14 @@
 \contentsline {subsection}{\numberline {3.2.2}Debuger KdoMotiv}{22}{subsection.3.2.2}
 \contentsline {paragraph}{}{22}{section*.40}
 \contentsline {paragraph}{}{22}{section*.41}
-\contentsline {subsection}{\numberline {3.2.3}Am\IeC {\'e}lioration du interface graphique de Back Office}{24}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}Am\IeC {\'e}lioration d'interface graphique de Back Office}{24}{subsection.3.2.3}
 \contentsline {subsubsection}{Changer la navigation bar}{24}{section*.42}
 \contentsline {subsection}{\numberline {3.2.4}Am\IeC {\'e}lioration des formulaires}{25}{subsection.3.2.4}
 \contentsline {subsubsection}{PEAR Qucik Form}{25}{section*.43}
 \contentsline {subsubsection}{Contr\IeC {\^o}ler le longueur du champs}{26}{section*.44}
 \contentsline {subsection}{\numberline {3.2.5}Gestion des tableaux avec jqGrid}{27}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Mettre des module modulable}{27}{subsection.3.2.6}
-\contentsline {section}{\numberline {3.3}Projets R\IeC {\'e}alis\IeC {\'e}}{30}{section.3.3}
+\contentsline {subsection}{\numberline {3.2.6}Mettre des modules modulables}{27}{subsection.3.2.6}
+\contentsline {section}{\numberline {3.3}Projets R\IeC {\'e}alis\IeC {\'e}s}{30}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Introduction}{30}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Projet Beru}{30}{subsection.3.3.2}
 \contentsline {subsubsection}{Description}{30}{section*.45}
