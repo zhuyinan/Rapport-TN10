@@ -470,6 +470,111 @@ Les tables de configurations sont crées selon la différente fonctionnalité.
 	
 \newpage
 \section{Projets Réalisé}
-Pendent mon stage,  j'ai réalisé mon 
+\subsection{Introduction}
+Pendent mon stage,  j'ai réalisé plusieurs projet simultanément quand je me suis occupé de la améliorer de framework KdoMotiv.
+
+Voici une liste de projet j'ai réalisé pendant 6 mois. (Par ordre de date)
+
+\begin{table}[htbp]
+\centering
+\renewcommand{\tabularxcolumn}[1]{>{\arraybackslash}m{#1}}
+\begin{tabularx}{\textwidth}{lXl}
+  \toprule
+  Projet & Description  & Durée  \\
+  \midrule
+	 Beru (BorgWarner BERU )& Challenge de beru basé sur KdoMotiv & 1 mois \\ 	 
+	 \hline	 
+	 CNP 2012 & Challenge de CNP 2012 sur mesure & 3 semaines \\ 	 
+	 \hline
+	 Air France & Challeng'air acceptation & 1 mois \\ 
+	 \hline
+	 Mail listing & Mail de relancer et challenge chaque mois d'Air France & 2 fois chaque mois\\
+	 \hline
+	 Comité Entreprise & Challenge basé sur KdoMotiv version 2 & Pas encore fini \\
+  \bottomrule
+\end{tabularx}
+ \caption{Liste de projet réalisé }
+\end{table}
+
+\subsection{Projet Beru}
+
+\subsubsection{Description}
+Le projet beru est le premier grand projet j'ai réalisé pendant mon stage. Il est basé sur l'ancienne version de KdoMotiv. Mais il y a un peu de différence.
+
+\begin{figure}[hbtp]
+\center
+\includegraphics[width=10cm]{body/images/projet-beru.png}
+\caption{Projet beru logo}
+\end{figure}
+
+\begin{itemize}
+\item [-] Les participants ne sont pas individuel, c'est les garages de Beru. Mais quand le commande est passé, il est passé par l'employé de chaque garage. c'est différent de principe de KdoMotiv.
+\item [-] Compte tenu de la nouvelle législation concernant les gratifications versées par les entreprises aux salariés d'une entreprise tierce, les gagnants devront déclarer aux administrations fiscales les gains perçus. 
+\item [-] A cause de problème des informations fiscales, chaque participant ne peut commander qu'un article chaque fois. s'il va commander plusieurs articles, il faut passer plusieurs commandes.
+\item [-] Comme les participant sont garages de beru, mais l'adresse de livraison sont selon les employés dans le garage, il faut modifier la structure de KdoMotiv 
+\end{itemize}
+
+\subsubsection{Intégration du HTML}
+Le projet beru est une copie de projet Club-UEM. Tous les modifications sont basé sur ce projet. Après on a reçu le graphisme de projet beru, j'ai fait la intégration du HTML(PSD\footnote{Fichier de Photoshop} à html). C'est une  méthode que j'ai appris dans le UV de LO18 à UTC.  
+
+Pendant l'intégration , j'ai trouvé que les travaux principal sont le changement de LOGO et bandeau d'entreprise sur KdoMotiv. Par conséquence, j'ai proposé une solution de mettre le logo et bandeau d'entreprise gérable dans Back Office. En plus, j'ai pré-définit trois thèmes graphiques, afin de déployer un projet plus rapide prochainement.
+
+\begin{figure}[hbtp]
+\center
+\includegraphics[width=16cm]{body/images/template-theme.png}
+\caption{Choix du thème graphique}
+\end{figure}
+ 
+
+
+\subsection{Projet CNP 2012}
+CNP est un client depuis 2011. Le nouveau challenge de 2012 est un projet sur mesure. La structure de site et base de donnée sont totalement différent de la structure de KdoMotiv.
+
+\begin{figure}[hbtp]
+\center
+\includegraphics[width=10cm]{body/images/cnp-2012.png}
+\caption{Challenge CNP 2012}
+\end{figure}
+
+En fait, on a travaillé sur le projet de CNP 2011
+
+
+
+\subsection{Projet Challeng'air}
+
+\subsubsection{Acceptation}
+Challeng'air est un projet de Air France.  Il est composé par deux parties, l'inscription et l'acceptation. Je m'occupe de la partie acceptation.
+Quand les participant sont passé l'étape d'inscription, et ont validé ses informations personnel, ils peuvent accéder à la page d'acceptation. 
+\begin{figure}[hbtp]
+\caption{Challeng'air Logo}
+\center
+\includegraphics[width=7cm]{body/images/challengair.png}
+\end{figure}
+
+En fait, l'acceptation est juste un formulaire à remplir par les participants.  Mais le formulaire est différent entre différents participants selon ses résultats. Soit le participant gagne une carte de cadeau de 30 euro ou 50 euro ,il faut remplir juste des informations de fiscales. Soit le participant gagné un petit cadeau, il faut remplir en plus l'adresse de livraison. 
+
+Afin de réaliser cette fonction, j'ai ajouté la condition de contrôler l'affichage du formulaire d'adresse livraison  selon les cadeaux les participant gagnent. 
+
+C'est aussi nécessaire de contrôler le longueur de champs comme j'ai raconté avant(Bien adapter le ERP de Data-Gest) . Dans ce projet, j'ai utilisé une extension de jqurey(vanadiumjs) afin de limiter des caractères entré de côté client. Au cas où le client désactive javascript , j'ai aussi fait une validation de formulaire de côté serveur en PHP.
+
+\subsubsection{Mailing Liste}
+Il y a aussi une mailing list de projet de \textbf{challeng'air}. Comme le besoin de client, il faut envoyer aux participant un  mail de challenge ou un mail de relancer chaque mois. 
+
+La première fois quand j'ai créé un mail de challenge, je l'ai traité plutôt comme une page , j'ai séparé le CSS et  HTML dans différent répertoire. En plus, j'ai utilisé balisé \textbf{div}. Par conséquence, ça cause du problème de l'affichage dans boit de mail.
+
+En fait, ce genre de mail doit être tous ingéré dans une balise \textbf{table}, inclure des codes CSS. Comme la structure ci-dessous:
+\begin{lstlisting}[language= html, numbers=left, numberstyle=\tiny,  frame=shadowbox]
+<table border=1>
+	<tr>
+      <td style="..">...</td>
+    </tr> 
+</table>
+\end{lstlisting}
+
+Après j'ai fini le template de mail de premier mois, et testé réussi dans boîte mail de Gmail, YAHOO!,Hotmail. C'est plus rapide de déployer des mails les mois suivants. 
+   
+\subsection{Projet Comité Entreprise}
+
+
 
 

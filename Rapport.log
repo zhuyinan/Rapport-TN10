@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.3)  7 SEP 2012 14:35
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.3)  8 SEP 2012 11:46
 entering extended mode
 **Rapport.tex
 (C:\USBTeX-1.7\rapport\Rapport-TN10\Rapport.tex
@@ -777,7 +777,7 @@ LaTeX Info: Redefining \nameref on input line 23.
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 23.
 
-<title/images/logo_utc.png, id=147, 85.15816pt x 30.1125pt>
+<title/images/logo_utc.png, id=167, 85.15816pt x 30.1125pt>
 File: title/images/logo_utc.png Graphic file (type png)
 
 <use title/images/logo_utc.png>
@@ -822,7 +822,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-<style/images/logo_utc.png, id=211, 85.15816pt x 30.1125pt>
+<style/images/logo_utc.png, id=236, 85.15816pt x 30.1125pt>
 File: style/images/logo_utc.png Graphic file (type png)
 
 <use style/images/logo_utc.png>
@@ -885,7 +885,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
 ))
 (C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-intro/intro-sujet/intro
-.tex <body/images/air-france-logo.jpg, id=280, 1027.84pt x 699.61375pt>
+.tex <body/images/air-france-logo.jpg, id=315, 1027.84pt x 699.61375pt>
 File: body/images/air-france-logo.jpg Graphic file (type jpg)
 
 <use body/images/air-france-logo.jpg>
@@ -893,14 +893,14 @@ Package pdftex.def Info: body/images/air-france-logo.jpg used on input line 13.
 
 (pdftex.def)             Requested size: 136.57462pt x 92.95992pt.
 
-<body/images/allianz.jpeg, id=281, 240.9pt x 180.675pt>
+<body/images/allianz.jpeg, id=316, 240.9pt x 180.675pt>
 File: body/images/allianz.jpeg Graphic file (type jpg)
 
 <use body/images/allianz.jpeg>
 Package pdftex.def Info: body/images/allianz.jpeg used on input line 14.
 (pdftex.def)             Requested size: 136.57462pt x 102.43443pt.
 
-<body/images/laposte.png, id=282, 963.6pt x 863.225pt>
+<body/images/laposte.png, id=317, 963.6pt x 863.225pt>
 File: body/images/laposte.png Graphic file (type png)
 
 <use body/images/laposte.png>
@@ -944,7 +944,7 @@ File: style/images/logo_utc.png Graphic file (type png)
 Package pdftex.def Info: style/images/logo_utc.png used on input line 11.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
  [11]
-<body/images/ModuleDG.png, id=319, 433.62pt x 216.81pt>
+<body/images/ModuleDG.png, id=354, 433.62pt x 216.81pt>
 File: body/images/ModuleDG.png Graphic file (type png)
 
 <use body/images/ModuleDG.png>
@@ -958,7 +958,7 @@ mo-du-leDG afin de contr^oler.(Valider
 
 )
 (C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/chapitre-pretude/kdomotiv/intro.
-tex <body/images/Procedure-kdomotiv.png, id=320, 469.755pt x 325.215pt>
+tex <body/images/Procedure-kdomotiv.png, id=355, 469.755pt x 325.215pt>
 File: body/images/Procedure-kdomotiv.png Graphic file (type png)
 
 <use body/images/Procedure-kdomotiv.png>
@@ -996,7 +996,7 @@ File: style/images/logo_utc.png Graphic file (type png)
 Package pdftex.def Info: style/images/logo_utc.png used on input line 67.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
  [15]
-<body/images/redmine-accueil.PNG, id=351, 407.27156pt x 680.5425pt>
+<body/images/redmine-accueil.PNG, id=386, 407.27156pt x 680.5425pt>
 File: body/images/redmine-accueil.PNG Graphic file (type png)
 
 <use body/images/redmine-accueil.PNG>
@@ -1008,7 +1008,7 @@ File: style/images/logo_utc.png Graphic file (type png)
 Package pdftex.def Info: style/images/logo_utc.png used on input line 81.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
  [16 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/redmine-accueil.PNG>]
-<body/images/conf-svn.png, id=359, 454.69875pt x 338.76563pt>
+<body/images/conf-svn.png, id=394, 454.69875pt x 338.76563pt>
 File: body/images/conf-svn.png Graphic file (type png)
 
 <use body/images/conf-svn.png>
@@ -1019,7 +1019,7 @@ File: style/images/logo_utc.png Graphic file (type png)
 Package pdftex.def Info: style/images/logo_utc.png used on input line 116.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
  [17]
-<body/images/svn-problem-permission.png, id=369, 508.90125pt x 120.45pt>
+<body/images/svn-problem-permission.png, id=404, 508.90125pt x 120.45pt>
 File: body/images/svn-problem-permission.png Graphic file (type png)
 
 <use body/images/svn-problem-permission.png>
@@ -1027,7 +1027,7 @@ Package pdftex.def Info: body/images/svn-problem-permission.png used on input l
 ine 121.
 (pdftex.def)             Requested size: 284.52756pt x 67.34677pt.
 
-<body/images/websvn.png, id=370, 927.465pt x 258.9675pt>
+<body/images/websvn.png, id=405, 927.465pt x 258.9675pt>
 File: body/images/websvn.png Graphic file (type png)
 
 <use body/images/websvn.png>
@@ -1039,7 +1039,7 @@ Package pdftex.def Info: style/images/logo_utc.png used on input line 137.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
  [18 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/conf-svn.png> <C:/USBTeX-1
 .7/rapport/Rapport-TN10/body/images/svn-problem-permission.png>]
-<body/images/dukowiki.png, id=379, 144.54pt x 142.28156pt>
+<body/images/dukowiki.png, id=414, 144.54pt x 142.28156pt>
 File: body/images/dukowiki.png Graphic file (type png)
 
 <use body/images/dukowiki.png>
@@ -1051,7 +1051,7 @@ Package pdftex.def Info: style/images/logo_utc.png used on input line 159.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
  [19 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/websvn.png> <C:/USBTeX-1.7
 /rapport/Rapport-TN10/body/images/dukowiki.png>]
-<body/images/kdomotiv.png, id=386, 156.585pt x 54.2025pt>
+<body/images/kdomotiv.png, id=421, 156.585pt x 54.2025pt>
 File: body/images/kdomotiv.png Graphic file (type png)
 
 <use body/images/kdomotiv.png>
@@ -1074,14 +1074,14 @@ File: style/images/logo_utc.png Graphic file (type png)
 Package pdftex.def Info: style/images/logo_utc.png used on input line 330.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
  [22]
-<body/images/navbar-old.png, id=407, 624.08156pt x 201.00093pt>
+<body/images/navbar-old.png, id=442, 624.08156pt x 201.00093pt>
 File: body/images/navbar-old.png Graphic file (type png)
 
 <use body/images/navbar-old.png>
 Package pdftex.def Info: body/images/navbar-old.png used on input line 341.
 (pdftex.def)             Requested size: 426.79134pt x 137.4609pt.
 
-<body/images/navbar-new.png, id=408, 788.9475pt x 310.91156pt>
+<body/images/navbar-new.png, id=443, 788.9475pt x 310.91156pt>
 File: body/images/navbar-new.png Graphic file (type png)
 
 <use body/images/navbar-new.png>
@@ -1099,7 +1099,7 @@ Package pdftex.def Info: style/images/logo_utc.png used on input line 356.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
  [23 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/navbar-old.png> <C:/USBTeX
 -1.7/rapport/Rapport-TN10/body/images/navbar-new.png>] <body/images/info-connex
-ion.png, id=414, 206.27063pt x 192.72pt>
+ion.png, id=449, 206.27063pt x 192.72pt>
 File: body/images/info-connexion.png Graphic file (type png)
 
 <use body/images/info-connexion.png>
@@ -1107,14 +1107,14 @@ Package pdftex.def Info: body/images/info-connexion.png used on input line 361.
 
 (pdftex.def)             Requested size: 142.26378pt x 132.9181pt.
 
-<body/images/sidebar-old.png, id=415, 146.79843pt x 197.23688pt>
+<body/images/sidebar-old.png, id=450, 146.79843pt x 197.23688pt>
 File: body/images/sidebar-old.png Graphic file (type png)
 
 <use body/images/sidebar-old.png>
 Package pdftex.def Info: body/images/sidebar-old.png used on input line 370.
 (pdftex.def)             Requested size: 91.04742pt x 122.33072pt.
 
-<body/images/sidebar-new.png, id=416, 209.28188pt x 210.7875pt>
+<body/images/sidebar-new.png, id=451, 209.28188pt x 210.7875pt>
 File: body/images/sidebar-new.png Graphic file (type png)
 
 <use body/images/sidebar-new.png>
@@ -1127,14 +1127,14 @@ Package pdftex.def Info: style/images/logo_utc.png used on input line 385.
  [24 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/info-connexion.png> <C:/US
 BTeX-1.7/rapport/Rapport-TN10/body/images/sidebar-old.png> <C:/USBTeX-1.7/rappo
 rt/Rapport-TN10/body/images/sidebar-new.png>]
-<body/images/pear_logo.png, id=426, 107.65219pt x 45.16875pt>
+<body/images/pear_logo.png, id=461, 107.65219pt x 45.16875pt>
 File: body/images/pear_logo.png Graphic file (type png)
 
 <use body/images/pear_logo.png>
 Package pdftex.def Info: body/images/pear_logo.png used on input line 390.
 (pdftex.def)             Requested size: 85.35826pt x 35.81523pt.
 
-<body/images/pear_quickform.png, id=427, 338.01282pt x 143.78719pt>
+<body/images/pear_quickform.png, id=462, 338.01282pt x 143.78719pt>
 File: body/images/pear_quickform.png Graphic file (type png)
 
 <use body/images/pear_quickform.png>
@@ -1159,14 +1159,14 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 (C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 )
-<body/images/cadeau-new.png, id=438, 758.835pt x 410.2828pt>
+<body/images/cadeau-new.png, id=473, 758.835pt x 410.2828pt>
 File: body/images/cadeau-new.png Graphic file (type png)
 
 <use body/images/cadeau-new.png>
 Package pdftex.def Info: body/images/cadeau-new.png used on input line 441.
 (pdftex.def)             Requested size: 455.24408pt x 246.14027pt.
 
-<body/images/cadeau-old.png, id=439, 936.49875pt x 469.755pt>
+<body/images/cadeau-old.png, id=474, 936.49875pt x 469.755pt>
 File: body/images/cadeau-old.png Graphic file (type png)
 
 <use body/images/cadeau-old.png>
@@ -1184,7 +1184,7 @@ Package pdftex.def Info: style/images/logo_utc.png used on input line 460.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
  [27 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/cadeau-new.png> <C:/USBTeX
 -1.7/rapport/Rapport-TN10/body/images/cadeau-old.png>] <body/images/config.png,
- id=454, 130.98938pt x 97.11281pt>
+ id=489, 130.98938pt x 97.11281pt>
 File: body/images/config.png Graphic file (type png)
 
 <use body/images/config.png>
@@ -1194,15 +1194,69 @@ File: style/images/logo_utc.png Graphic file (type png)
  <use style/images/logo_utc.png>
 Package pdftex.def Info: style/images/logo_utc.png used on input line 471.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
- [28 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/config.png>])
-File: style/images/logo_utc.png Graphic file (type png)
+ [28 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/config.png>]
+<body/images/projet-beru.png, id=494, 402.00188pt x 54.9553pt>
+File: body/images/projet-beru.png Graphic file (type png)
 
-<use style/images/logo_utc.png>
+<use body/images/projet-beru.png>
+Package pdftex.def Info: body/images/projet-beru.png used on input line 506.
+(pdftex.def)             Requested size: 284.52756pt x 38.89609pt.
+File: style/images/logo_utc.png Graphic file (type png)
+ <use style/images/logo_utc.png>
+Package pdftex.def Info: style/images/logo_utc.png used on input line 519.
+(pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
+ [29 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/projet-beru.png>]
+<body/images/template-theme.png, id=501, 681.29532pt x 338.01282pt>
+File: body/images/template-theme.png Graphic file (type png)
+
+<use body/images/template-theme.png>
+Package pdftex.def Info: body/images/template-theme.png used on input line 524.
+
+(pdftex.def)             Requested size: 455.24408pt x 225.86395pt.
+
+<body/images/cnp-2012.png, id=502, 523.9575pt x 96.36pt>
+File: body/images/cnp-2012.png Graphic file (type png)
+
+<use body/images/cnp-2012.png>
+Package pdftex.def Info: body/images/cnp-2012.png used on input line 535.
+(pdftex.def)             Requested size: 227.62204pt x 41.86037pt.
+
+<body/images/challengair.png, id=503, 414.79968pt x 114.4275pt>
+File: body/images/challengair.png Graphic file (type png)
+
+<use body/images/challengair.png>
+Package pdftex.def Info: body/images/challengair.png used on input line 549.
+(pdftex.def)             Requested size: 199.16928pt x 54.94203pt.
+File: style/images/logo_utc.png Graphic file (type png)
+ <use style/images/logo_utc.png>
+Package pdftex.def Info: style/images/logo_utc.png used on input line 551.
+(pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
+ [30 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/template-theme.png> <C:/US
+BTeX-1.7/rapport/Rapport-TN10/body/images/cnp-2012.png>]
+Overfull \hbox (0.29005pt too wide) in paragraph at lines 556--557
+[]\OT1/cmr/m/n/12 C'est aussi necessaire de contr^oler le lon-gueur de champs 
+comme j'ai ra-conte avant(Bien
+ []
+
+
+Overfull \hbox (21.19353pt too wide) in paragraph at lines 556--557
+\OT1/cmr/m/n/12 adap-ter le ERP de Data-Gest) . Dans ce pro-jet, j'ai uti-lise
+ une ex-ten-sion de jqu-rey(vanadiumjs)
+ []
+
+)
+File: style/images/logo_utc.png Graphic file (type png)
+ <use style/images/logo_utc.png>
 Package pdftex.def Info: style/images/logo_utc.png used on input line 38.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
- [29]
+ [31 <C:/USBTeX-1.7/rapport/Rapport-TN10/body/images/challengair.png>]
+File: style/images/logo_utc.png Graphic file (type png)
+ <use style/images/logo_utc.png>
+Package pdftex.def Info: style/images/logo_utc.png used on input line 38.
+(pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
+ [32]
 (C:\USBTeX-1.7\rapport\Rapport-TN10\body/pages/conclusion.tex)
-(C:\USBTeX-1.7\rapport\Rapport-TN10\Rapport.bbl [30
+(C:\USBTeX-1.7\rapport\Rapport-TN10\Rapport.bbl [33
 
 
 ]
@@ -1213,7 +1267,7 @@ Underfull \hbox (badness 7869) in paragraph at lines 16--18
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
-) (C:\USBTeX-1.7\rapport\Rapport-TN10\appendix/titreA.tex [31
+) (C:\USBTeX-1.7\rapport\Rapport-TN10\appendix/titreA.tex [34
 
 ]
 (C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\listings\lstlang1.sty
@@ -1222,51 +1276,32 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 (C:\USBTeX-1.7\programs\MiKTeX_2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(C:\USBTeX-1.7\rapport\Rapport-TN10\appendix/main.cf
-Overfull \hbox (80.55496pt too wide) in paragraph at lines 1--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (45.30502pt too wide) in paragraph at lines 24--25
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (31.20505pt too wide) in paragraph at lines 25--27
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (59.405pt too wide) in paragraph at lines 27--28
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[32
+(C:\USBTeX-1.7\rapport\Rapport-TN10\appendix/main.cf.txt [35
 
 ]))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
 File: style/images/logo_utc.png Graphic file (type png)
- <use style/images/logo_utc.png>
+
+<use style/images/logo_utc.png>
 Package pdftex.def Info: style/images/logo_utc.png used on input line 45.
 (pdftex.def)             Requested size: 51.21504pt x 18.1099pt.
- [33]
+ [36]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
 
 (C:\USBTeX-1.7\rapport\Rapport-TN10\Rapport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `Rapport.out' has not changed.
-(rerunfilecheck)             Checksum: DA86A3E299A927899370543CC1832A20;2519.
+(rerunfilecheck)             Checksum: 7DE271A1EA70CB129E8555CC9CB3A92D;2878.
  ) 
 Here is how much of TeX's memory you used:
- 10355 strings out of 494045
- 149128 string characters out of 3137468
- 300146 words of memory out of 3000000
- 13162 multiletter control sequences out of 15000+200000
+ 10412 strings out of 494045
+ 150205 string characters out of 3137468
+ 297320 words of memory out of 3000000
+ 13185 multiletter control sequences out of 15000+200000
  12056 words of font info for 44 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 35i,16n,51p,733b,1935s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,16n,51p,733b,1933s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
 C:/USBTeX-1.7/programs/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
@@ -1278,9 +1313,9 @@ ograms/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/USBTeX-1.7/prog
 rams/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/USBTeX-1.7/progra
 ms/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/USBTeX-1.7/programs/
 MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Rapport.pdf (34 pages, 753316 bytes).
+Output written on Rapport.pdf (37 pages, 1034195 bytes).
 PDF statistics:
- 606 PDF objects out of 1000 (max. 8388607)
- 208 named destinations out of 1000 (max. 500000)
- 404 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 686 PDF objects out of 1000 (max. 8388607)
+ 238 named destinations out of 1000 (max. 500000)
+ 464 words of extra memory for PDF output out of 10000 (max. 10000000)
 
