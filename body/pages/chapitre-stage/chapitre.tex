@@ -67,7 +67,7 @@ Après l'installation et la configuration du ROR, la mise en place de Redmine es
 
 Ensuite, j'ai déposé tous les projets actuels de Data-Gest afin de gérer et tracer sur RedMine. On peut aussi apercevoir les anomalies, les évolution, les assistances de chaque projet.
 \begin{figure}[hbtp]
-\center
+\centering
 \includegraphics[width=10cm]{body/images/redmine-accueil.PNG}
 \caption{Acceuil de Redmine}
 \end{figure}
@@ -105,7 +105,7 @@ Mais il semble que le SVN sur serveur dev distant est mal configuré, il y a jus
 \subsubsection{Fichier de conf}
 Après on a gagné les droit de configuration dans le répertoire de SVN, on a créé un dépôt qui sert à notre premier projet lequel on voudrait contrôler la version en ligne de commande. Dans le répertoire "\textbf{conf}" de ce dépôt subvention, on peut ajouter les utilisateurs qui peuvent faire les action "commit" à ce dépôt  ou "check out" depuis ce dépôt. 
 \begin{figure}[hbtp]
-\center
+\centering
 \includegraphics[width=10cm]{body/images/conf-svn.png}
 \caption{fichier conf SVN}
 \end{figure}
@@ -117,7 +117,7 @@ On a installé TortoiseSVN comme le logiciel de côté client.  Mais on a eu le 
 On doit lancé a commande dans linux afin de changer l'utilisateur et le groupe d'une répertoire dans le dépôt. 
 
 \begin{figure}[hbtp]
-\center
+\centering
 \includegraphics[width=10cm]{body/images/svn-problem-permission.png}
 \caption{Changer groupe de répertoire}
 \end{figure}
@@ -125,7 +125,7 @@ On doit lancé a commande dans linux afin de changer l'utilisateur et le groupe 
 \subsubsection{WEBSVN}
 WEBSVN est un interface graphique permettant de visualiser les versions des projets. Il est pointé vers le répertoire de dépôt de SVN.
 \begin{figure}[hbtp]
-\center
+\centering
 \includegraphics[width=15cm]{body/images/websvn.png}
 \caption{Interface WEBSVN}
 \end{figure}
@@ -141,6 +141,11 @@ Ce que on a utilisé dans hook est l'événement \textbf{post-commit} , une noti
 \subsection{Création de la documentation du Data-Gest}
 \paragraph{}
 Avant je suis arrivé, il n'y a rien de documentation de pôle web chez Data-Gest, c'est la raison que je voudrais créer la documentation de noter ce que j'ai fait. Dans variés types des applications de wiki, j'ai choisi dokuwiki comme le wiki de Data-Gest basé sur les raison suivant.
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=5cm]{body/images/dukowiki.png}
+\caption{Dokuwiki}
+\end{figure}
 \begin{itemize}
 \item [-] C'est un moteur de wiki libre sous licence GUN GPL
 \item [-] Simple à utiliser et déployer comme il est développé en PHP.
@@ -148,16 +153,21 @@ Avant je suis arrivé, il n'y a rien de documentation de pôle web chez Data-Ges
 \end{itemize}
 
 \paragraph{}
-Ce que j'ai rédigé principal dans le wiki sont la gestion de SVN sur serveur distant, les informations de serveur local et serveur distant, et aussi certain informations très important que on doit le noter. 
+J'ai noté tous lès points importants sur le wiki pendant mon travail. Par exemple, comment changer la version de PHP sur serveur distant en utilisant fichier .htaccess. 
 
+En plus j'ai aussi rédigé la documentation sur comment gérer des dépôts SVN sur serveur distant, les informations de serveur local et serveur distant. 
+
+En fait, la documentation est pour des nouveaux employés afin de intégrer rapidement dans équipe de développement â pôle web chez Data-Gest. 
+
+Voici une liste de contenu j'ai créé dans dokuwiki :
 \begin{figure}[hbtp]
-\center
-\includegraphics[scale=1]{body/images/dukowiki.png}
+\centering
+\includegraphics[scale=1]{body/images/dokuwiki-content.png}
 \caption{Dokuwiki}
 \end{figure}
 
-\newpage
 
+\newpage
 \section[Amélioration KdoMotiv]{Amélioration du framework KdoMotiv}
 \subsection*{}
 La mission principale pendant mon stage est d'améliorer le framework KdoMotiv médium. En fait KdoMotiv est déjà développé par l'ancien stagiaire. A cause de son niveau de programmation, il ne connaît pas la programmation orienté objet(POO). Par conséquence, tout le framework de KdoMotiv est développé en PHP procédure. Ça cause de problème de maintenance et le debug comme il n'y a pas de documentation, ni de commentaire sur le KdoMotiv, le stagiaire suivant est difficile de maîtriser tout le projet. En plus, après avoir testé la fonctionnement, j'ai trouvé qu'il existe encore beaucoup de erreurs et beaucoup de parties reste à faire.
@@ -165,7 +175,7 @@ La mission principale pendant mon stage est d'améliorer le framework KdoMotiv m
 C'est pourquoi j'ai discuté avec le patron afin de refaire tout de KdoMotiv en PHP objet. Mais comme ça prend du temps et aussi du frais de l'entreprise. Après avoir bien réfléchi les conditions et les situations actuels. Le patron à refusé ma propositions. En plus, je ne peux pas assurer ce que je ferai est stable et mieux que le framework KdoMotv actuel. 
 
 \begin{figure}[hbtp]
-\center
+\centering
 \includegraphics[scale=1]{body/images/kdomotiv.png}
 \caption{KdoMotiv Logo}
 \end{figure}
@@ -337,7 +347,7 @@ Dans projet de KdoMotiv, j'ai choisi Twitter Bootstrap comme le framework de int
 \subsubsection{Changer la navigation bar}
 L'ancienne navigation bar est comme la figure cinéma ci-dessous. Il y a non seulement du problème de compatibilité avec différent navigateur, mais aussi pas très claire avec la séparation de fonctionnalité.
 \begin{figure}[hbtp]
-\center
+\centering
 \includegraphics[width=15cm]{body/images/navbar-old.png}
 \caption{Ancienne navigation bar}
 \end{figure}
@@ -347,7 +357,7 @@ Par exemple, on peut trouver tous lès fonctionnalité d'exporter données dans 
 
 
  \begin{figure}[hbtp]
-\center
+\centering
 \includegraphics[width=15cm]{body/images/navbar-new.png}
 \caption{Nouvelle navigation bar}
 \end{figure}
@@ -357,7 +367,7 @@ Par contre, dans le framework de Twitter Bootstrap, il y a une navigation bar pr
 Dans la nouvelle navigation bar, j'ai intégré tous les informations de connexions dans navigation bar, et aussi séparation les fonctionnalité sous propre onglet, comme les fonctionnalités des données dans la figure ci-dissous. 
 
  \begin{figure}[hbtp]
-\center
+\centering
 \includegraphics[width=5cm]{body/images/info-connexion.png}
 \caption{Nouvelle navigation bar}
 \end{figure}
@@ -386,7 +396,7 @@ Mais dans le ancien KdoMotiv, comme il est programmé par PHP en procédure, ce 
 Dans ce cas, j'ai introduit une extension dans PERA \footnote{PHP Extension and Application Repository} qui s'appelle PHP quick form. C'est une extension de développer formulaire rapidement. Tous les formulaire sont généré automatiquement selon les variables lesquelles j'ai donné dans un tableau. 
 
 \begin{figure}[hbtp]
-\center
+\centering
 \includegraphics[width=3cm]{body/images/pear_logo.png}
 \caption{Logo PEAR}
 \end{figure}
@@ -395,7 +405,7 @@ Dans ce cas, j'ai introduit une extension dans PERA \footnote{PHP Extension and 
 Afin de appliquer le Quick Form, il faut installer PEAR sur le serveur. J'ai demandé a l'administrateur d'OVH de me donne le droit lancer commande "PEAR" sur le serveur distant. Ensuite, j'ai juste mis à jour de PEAR et installé  les modules dépendants. 
 
 \begin{figure}[hbtp]
-\center
+\centering
 \includegraphics[width=10cm]{body/images/pear_quickform.png}
 \caption{PEAR Quick Form}
 \end{figure}
@@ -459,7 +469,7 @@ Afin de réaliser cette fonction, il faut créer une table dans le base qui sert
 
 Les tables de configurations sont crées selon la différente fonctionnalité. 
 \begin{figure}[hbtp]
-\center
+\centering
 \includegraphics[width=4cm]{body/images/config.png}
 \caption{Configuration des tables}
 \end{figure}
@@ -502,7 +512,7 @@ Voici une liste de projet j'ai réalisé pendant 6 mois. (Par ordre de date)
 Le projet beru est le premier grand projet j'ai réalisé pendant mon stage. Il est basé sur l'ancienne version de KdoMotiv. Mais il y a un peu de différence.
 
 \begin{figure}[hbtp]
-\center
+\centering
 \includegraphics[width=10cm]{body/images/projet-beru.png}
 \caption{Projet beru logo}
 \end{figure}
@@ -520,7 +530,7 @@ Le projet beru est une copie de projet Club-UEM. Tous les modifications sont bas
 Pendant l'intégration , j'ai trouvé que les travaux principal sont le changement de LOGO et bandeau d'entreprise sur KdoMotiv. Par conséquence, j'ai proposé une solution de mettre le logo et bandeau d'entreprise gérable dans Back Office. En plus, j'ai pré-définit trois thèmes graphiques, afin de déployer un projet plus rapide prochainement.
 
 \begin{figure}[hbtp]
-\center
+\centering
 \includegraphics[width=16cm]{body/images/template-theme.png}
 \caption{Choix du thème graphique}
 \end{figure}
@@ -531,12 +541,17 @@ Pendant l'intégration , j'ai trouvé que les travaux principal sont le changeme
 CNP est un client depuis 2011. Le nouveau challenge de 2012 est un projet sur mesure. La structure de site et base de donnée sont totalement différent de la structure de KdoMotiv.
 
 \begin{figure}[hbtp]
-\center
+\centering
 \includegraphics[width=10cm]{body/images/cnp-2012.png}
 \caption{Challenge CNP 2012}
 \end{figure}
 
-En fait, on a travaillé sur le projet de CNP 2011
+En fait, on a dupliqué le projet de CNP 2011 basé sur lequel on a développé le projet CNP 2012.
+
+\subsubsection{Difficultés} 
+Le plus difficile de nouveau projet est de la partie intégration du HTML. Le client nous a offre le fichier de PSD de graphisme, il y a trop de images qui doivent couper, et aussi des décalages de images. Finalement, la partie d'intégration HTML était sous-traité. 
+
+La fonctionnalité du site CNP est différent de KdoMotiv. Il faut refaire noyau du site pour adapter le besoin de client. 
 
 
 
@@ -547,7 +562,7 @@ Challeng'air est un projet de Air France.  Il est composé par deux parties, l'i
 Quand les participant sont passé l'étape d'inscription, et ont validé ses informations personnel, ils peuvent accéder à la page d'acceptation. 
 \begin{figure}[hbtp]
 \caption{Challeng'air Logo}
-\center
+\centering
 \includegraphics[width=7cm]{body/images/challengair.png}
 \end{figure}
 
@@ -574,6 +589,11 @@ En fait, ce genre de mail doit être tous ingéré dans une balise \textbf{table
 Après j'ai fini le template de mail de premier mois, et testé réussi dans boîte mail de Gmail, YAHOO!,Hotmail. C'est plus rapide de déployer des mails les mois suivants. 
    
 \subsection{Projet Comité Entreprise}
+Projet Comité Entreprise est le dernière projet avant je suis parti. Il est basé sur KdoMotiv version 2. Mais, il n'a pas besoin de page résultats et page carnet d'adresse comme les demandes de client.  
+
+Par conséquence, j'ai ajouté deux fonctions dans back office afin de faire résultats et carnet d'adresse modulable. 
+
+Ce projet n'est pas encore fini quand je suis parti.
 
 
 
